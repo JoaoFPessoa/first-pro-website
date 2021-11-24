@@ -10,6 +10,7 @@ import ModalButton3 from '../../components/ModalButtons/ModalButton3'
 import ModalButton4 from '../../components/ModalButtons/ModalButton4'
 import ModalButton5 from '../../components/ModalButtons/ModalButton5'
 import ModalButton6 from '../../components/ModalButtons/ModalButton6'
+import About from '../../components/About'
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
     return (
         <HomeContainer>
             <Header />
+
             <Title>
             <TextOne />
             </Title>
@@ -27,11 +29,14 @@ export default function Home() {
             <HireButton />
             <ProviderButton />
             <Shield />
+
             <ModalButton1 />
             <ModalButton2 />
             <ModalButton3 />
             <ModalButton4 />
             <ModalButton5 />
             <ModalButton6 />
+
+            <About />
         </HomeContainer>
     )}
