@@ -3,7 +3,7 @@ import { ModalStyle, Button } from "../ModalButton1/style";
 import { useState } from "react";
 import FileLogo from "./fileIcon"
 import Seta6 from "./seta"
-import FileFocus from '../../../img/file-focus 1(1).png'
+import FileFocus from '../../Modals/Modal6/img/file-focus 1.svg'
 import Modal6 from "../../Modals/Modal6"
 
 

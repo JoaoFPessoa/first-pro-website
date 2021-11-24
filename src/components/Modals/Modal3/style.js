@@ -16,7 +16,7 @@ z-index: 20;
 export const Container = styled.div`
 width: 100%;
 max-width: 924px;
-height: 584px;
+height: 534px;
 /* black1 */
 background: #191919;
 color: white;

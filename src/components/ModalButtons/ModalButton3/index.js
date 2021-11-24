@@ -3,10 +3,10 @@ import { ModalStyle, Button } from "../ModalButton1/style";
 import { useState } from "react";
 import HomeLogo from "./homeIcon"
 import Seta3 from "./seta"
-import Alarm from './img/alarm 1.png'
-import Home from '../../../img/home 1.png'
-import Car from '../../../img/car 2.png'
-import GoodOne from './img/good-one 1.png'
+import Alarm from '../../Modals/Modal3/img/alarm 1.svg'
+import Home from '../../Modals/Modal3/img/home 1.svg'
+import Car from '../../Modals/Modal3/img/car 2.svg'
+import GoodOne from '../../Modals/Modal3/img/good-one 1.svg'
 import Modal3 from "../../Modals/Modal3"
 
 

@@ -3,15 +3,14 @@ import { ModalStyle, Button } from "../ModalButton1/style";
 import { useState } from "react";
 import ProtectIcon from "./protectIcon"
 import Seta4 from "./seta"
-import Protect from '../../../img/protect 1.png'
-import Car from './img/car 3.png'
-import Arrow from './img/arrow-left 1.png'
-import Battery from './img/battery-working 1(2).png'
-import Round1 from './img/round 1.png'
-import Tool from './img/tool 1.png'
-import Water from './img/water-level 1.png'
+import Protect from '../../Modals/Modal4/img/protect 1.svg'
+import Car from '../../Modals/Modal4/img/car 3.svg'
+import Arrow from '../../Modals/Modal4/img/arrow-left 1.svg'
+import Battery from '../../Modals/Modal4/img/battery-working 1.svg'
+import Round1 from '../../Modals/Modal4/img/round 1.svg'
+import Tool from '../../Modals/Modal4/img/tool 1.svg'
+import Water from '../../Modals/Modal4/img/water-level 1.svg'
 import Modal4 from "../../Modals/Modal4"
-import { Line4 } from "../ModalButton2/style";
 import { Line5 } from "../../Modals/Modal4/style";
 
 

@@ -164,3 +164,15 @@ line-height: 26px;
 /* gray1 */
 color: #B8B8B8;
 `
+
+export const Background = styled.img`
+position: absolute;
+width: 670.46px;
+height: 475px;
+left: 537.54px;
+border: 2px solid;
+border-image-source: linear-gradient(180deg, #525252 0%, rgba(82, 82, 82, 0) 100%);
+
+
+
+`

@@ -1,10 +1,12 @@
 import { ModalStyle, Button } from "../ModalButton1/style"
 import {Line4, Text,} from './style'
 import Seta2 from './seta'
-import Car from './Car.png'
-import Balance from './img/balance-two 1.png'
-import Focus from './img/file-focus 1.png'
-import Refresh from './img/refresh 1.png'
+
+import Balance from '../../Modals/Modal2/img/balance-two 1.svg'
+import Car from '../../Modals/Modal2/img/car 1.svg'
+import Focus from '../../Modals/Modal2/img/file-focus 1.svg'
+import Refresh from '../../Modals/Modal2/img/refresh 1.svg'
+
 import { useState } from "react";
 import Modal2 from "../../Modals/Modal2"
 import Car1 from './car'

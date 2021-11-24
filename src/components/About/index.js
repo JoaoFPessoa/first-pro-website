@@ -1,6 +1,7 @@
-import { Title, Description, Text1, Line7, Text2, Container, Ball1, Ball2, Ball3, SubtitleOne, SubtitleTwo, SubtitleThree, Text3, Text4, Text5 } from './style'
+import { Title, Description, Text1, Line7, Text2, Container, Ball1, Ball2, Ball3, SubtitleOne, SubtitleTwo, SubtitleThree, Text3, Text4, Text5, Background } from './style'
 import Arrow from '../../img/Line 7.png'
 import BallIcon from '../../img/Ellipse 11.png'
+import BackgImg from '../../img/logo24h.png'
 
 export default function About () {
     return (
@@ -48,6 +49,7 @@ export default function About () {
     território nacional. Para assistência veicular 24 horas são mais de 
     5 mil agentes de pronta resposta.
     </Text5>
+    <Background src={BackgImg} />
     </Container>
     
     )

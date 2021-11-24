@@ -11,6 +11,7 @@ import ModalButton4 from '../../components/ModalButtons/ModalButton4'
 import ModalButton5 from '../../components/ModalButtons/ModalButton5'
 import ModalButton6 from '../../components/ModalButtons/ModalButton6'
 import About from '../../components/About'
+import Assistant from '../../components/Assistant'
 
 
 
@@ -38,5 +39,7 @@ export default function Home() {
             <ModalButton6 />
 
             <About />
+
+            <Assistant />
         </HomeContainer>
     )}
