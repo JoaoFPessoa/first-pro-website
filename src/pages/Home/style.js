@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-width: 100%;
+position: absolute;
+width: 1440px;
 height: 634px;
+left: 0px;
+top: 0px;
 background: #191919;
 `
 
@@ -12,7 +15,7 @@ position: absolute;
 width: 464px;
 height: 180px;
 left: 111px;
-top: 207px;
+top: 12.938rem;
 font-weight: 500;
 font-size: 56px;
 line-height: 60px;
@@ -22,7 +25,7 @@ position: absolute;
 width: 417px;
 height: 64px;
 left: 111px;
-top: 419px;
+top: 450px;
 font-size: 18px;
 line-height: 32px;
 color: #B8B8B8;
