@@ -12,6 +12,10 @@ import ModalButton5 from '../../components/ModalButtons/ModalButton5'
 import ModalButton6 from '../../components/ModalButtons/ModalButton6'
 import About from '../../components/About'
 import Assistant from '../../components/Assistant'
+import RecoveredCars from '../../components/RecoveredCars'
+import Testimony from '../../components/Testimony'
+import Banner from '../../components/Banner'
+import Footer from '../../components/Footer'
 
 
 
@@ -41,5 +45,13 @@ export default function Home() {
             <About />
 
             <Assistant />
+
+            <RecoveredCars />
+
+            <Testimony />
+
+            <Banner />
+
+            <Footer />
         </HomeContainer>
     )}
