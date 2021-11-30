@@ -2,7 +2,6 @@ import {HomeContainer, Title, Subtitle} from './style'
 import {TextOne, TextTwo} from '../../components/HomeComponents/texts'
 import {HireButton} from '../../components/Buttons/hire-button'
 import {ProviderButton} from '../../components/Buttons/provider-button'
-import Shield from '../../components/HomeComponents/shieldSvg'
 import Header from '../../components/Header'
 import ModalButton1 from '../../components/ModalButtons/ModalButton1'
 import ModalButton2 from '../../components/ModalButtons/ModalButton2'
@@ -16,6 +15,7 @@ import RecoveredCars from '../../components/RecoveredCars'
 import Testimony from '../../components/Testimony'
 import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
+import HomeShield from '../../components/HomeComponents'
 
 
 
@@ -33,7 +33,7 @@ export default function Home() {
             </Subtitle>
             <HireButton />
             <ProviderButton />
-            <Shield />
+            <HomeShield />
 
             <ModalButton1 />
             <ModalButton2 />

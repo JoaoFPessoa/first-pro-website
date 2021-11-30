@@ -10,9 +10,7 @@ import RecoveredCar4 from '../../img/RecoveredCar4.svg'
 export default function RecoveredCars() {
     return (
     <Container>
-        <Rectangle>
         <CarIcon src={Car1} />
-        </Rectangle>
         <Subtitle>
         Pronta resposta veicular
         </Subtitle>

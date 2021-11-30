@@ -16,8 +16,6 @@ return(
         O que nossos clientes
         dizem sobre nós.
         </Title>
-        <Arrow src={LeftArrow} />
-        <ArrowTwo src={RightArrow} />
         <ContainerTwo>
         <Aspas src={AspasImage} />
         <Text>
@@ -29,6 +27,8 @@ return(
         <ClientName>
             Tiago Luchtenberg
         </ClientName>
+        <Arrow src={LeftArrow} />
+        <ArrowTwo src={RightArrow} />
         </ContainerTwo>
     </Container>
 )

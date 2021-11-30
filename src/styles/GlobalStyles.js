@@ -16,4 +16,7 @@ export default createGlobalStyle`
         font-family: 'DM Sans', sans-serif;
         font-family: 'Inter', sans-serif;
         background: #191919;
+        @media(max-width:768px){
+            max-width: 500px;
+        }
     }`

@@ -18,7 +18,7 @@ export default function Banner(){
             <HButton2>
                 Contrate a PRMA
             </HButton2>
-            <Shield />
+            {/* <Shield /> */}
             <IconContainer>
                 <Icons src={Preview} />
                 <Icons src={Car} />

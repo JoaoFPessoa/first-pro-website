@@ -15,6 +15,11 @@ width: 53.54px;
 height: 38px;
 left: 111px;
 top: 29px;
+@media (max-width: 768px) {
+  left: 20px;
+  width: 39.23px;
+  height: 28px;
+}
   }
 `
 
@@ -24,6 +29,14 @@ width: 160.62px;
 height: 15.65px;
 left: 182.38px;
 top: 40.18px;
+@media (max-width: 768px){
+width: 117.69px;
+height: 11.53px;
+left: 72.31px;
+top: 32.24px;
+
+
+}
   }
 `
 
@@ -34,6 +47,9 @@ height: 26px;
 font-size: 16px;
 line-height: 26px;
 color: #B8B8B8;
+@media(max-width: 768px){
+  display: none;
+}
 
 .inicio{
   position: absolute;
@@ -64,7 +80,7 @@ color: white;
 
 .quem-somos{
   position: absolute;
-width: 99px;
+width: 110px;
 height: 26px;
 left: 1030px;
 top: 35px;
@@ -78,7 +94,7 @@ color: white;
   position: absolute;
   width: 61px;
   height: 26px;
-  left: 1150px;
+  left: 1160px;
   top: 35px;
   font-size: 16px;
   line-height: 26px;

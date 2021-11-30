@@ -11,7 +11,7 @@ import Round1 from '../../Modals/Modal4/img/round 1.svg'
 import Tool from '../../Modals/Modal4/img/tool 1.svg'
 import Water from '../../Modals/Modal4/img/water-level 1.svg'
 import Modal4 from "../../Modals/Modal4"
-import { Line5 } from "../../Modals/Modal4/style";
+import { Line5, Line6, Line7, Line8, Line9 } from "../../Modals/Modal4/style";
 
 
 export default function ModalButton4() {
@@ -31,6 +31,10 @@ export default function ModalButton4() {
         <ProtectIcon />
         <Seta4 />
         <Line5 />
+        <Line6 />
+        <Line7 />
+        <Line8 />
+        <Line9 />
         </ModalStyle>
         </Button>
         {showModal && (        <Modal4 showModal={showModal} setShowModal={openModal} 

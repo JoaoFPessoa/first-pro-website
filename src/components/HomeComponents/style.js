@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Map from '../../img/default_map_Traced.png'
 
 export const HomeContainer = styled.div`
 width: 1440px;
@@ -7,6 +8,10 @@ background: #191919;
 left: 0;
 top: 0;
 position: absolute;
+
+@media(max-width: 760px){
+    width: 450px;
+}
 `
 
 export const Title = styled.div`
@@ -33,10 +38,16 @@ color: #B8B8B8;
 flex: 1;
 `
 
-export const ShieldStyle = styled.div`
+export const ShieldStyle = styled.img`
 position: absolute;
-width: 317.92px;
-height: 152.96px;
+width: 717.92px;
+height: 600.96px;
 left: 597px;
-top: 58px;
+top: 78px;
+@media(max-width: 768px) {
+top: 470px;
+left: 0px;
+width: 400.92px;
+height: 350.96px;
+background-image: url(${Map});
 `
