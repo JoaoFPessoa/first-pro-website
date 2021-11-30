@@ -10,6 +10,7 @@ top: 2850px;
 @media(max-width: 768px){
     top: 3600px;
     left: 0;
+    width: 500px;
 }
 `
 

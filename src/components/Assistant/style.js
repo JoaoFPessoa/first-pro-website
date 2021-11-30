@@ -8,6 +8,7 @@ left: 112px;
 top: 1806px;
 @media(max-width: 768px){
     left: 0;
+    width: 500px;
 }
 `
 

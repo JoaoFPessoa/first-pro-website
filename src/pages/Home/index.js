@@ -40,9 +40,9 @@ export default function Home() {
             <ModalButton3 />
             <ModalButton4 />
             <ModalButton5 />
-            <ModalButton6 />
+            <ModalButton6  />
 
-            <About />
+            <About/>
 
             <Assistant />
 

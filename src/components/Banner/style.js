@@ -11,7 +11,7 @@ background: #242424;
 @media(max-width: 768px){
     top: 4200px;
     left: 0px;
-    width: 100%;
+    width: 500px;
     height: 214px;
 }
 `

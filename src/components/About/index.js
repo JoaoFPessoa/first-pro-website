@@ -5,7 +5,7 @@ import BackgImg from '../../img/logo24h.png'
 
 export default function About () {
     return (
-<Container>
+<Container id="aboutUs">
     <Title>
         O que é a PRMA Federal
     </Title>

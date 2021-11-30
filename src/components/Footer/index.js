@@ -43,7 +43,7 @@ export default function Footer(){
             <ContactTitle>
                 Contato
             </ContactTitle>
-            <Cellphone>
+            <Cellphone id="contact">
             +55 (11) 4195-0859
             </Cellphone>
             <WhatsAppLogo src={Whatsapp} />

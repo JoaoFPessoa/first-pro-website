@@ -9,6 +9,7 @@ top: 2300px;
 @media(max-width: 768px){
     dispĺay: none;
     left: 20px;
+    width: 500px;
 }
 `
 
@@ -120,6 +121,7 @@ height: 26px;
 color: #EBEBEB;
 @media(max-width: 768px){
     display: none;
+    width: 0;
 }
 `
 export const LocationContainer = styled.div`
@@ -138,6 +140,7 @@ line-height: 26px;
 color: #EBEBEB;
 @media(max-width: 768px){
     display: none;
+    width: 0;
 }
 `
 export const DateContainer = styled.div`

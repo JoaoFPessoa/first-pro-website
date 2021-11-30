@@ -16,9 +16,9 @@ export default function ModalButton6() {
     
     return (
         <>
-        <Button onClick={openModal}>
+        <Button  onClick={openModal}>
         <ModalStyle>
-        <Text>
+        <Text >
         Sindicância
         </Text>
         <FileLogo />
