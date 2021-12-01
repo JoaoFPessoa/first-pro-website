@@ -49,5 +49,5 @@ top: 470px;
 left: 0px;
 width: 400.92px;
 height: 350.96px;
-background-image: url(${Map});
+background-image: url(${Map});  
 `

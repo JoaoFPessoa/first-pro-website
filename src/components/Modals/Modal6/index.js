@@ -1,6 +1,6 @@
-import { Overlay, Container, Title, SubtitleContainer, IconsContainer, IconName, Teste } from './style'
+import { Overlay, Container, Title} from '../Modal1/style'
+import {SubtitleContainer} from './style'
 import Icon from './icon'
-import MiniIcon from "./miniIcon"
 import {Close} from '../../ModalButtons/ModalButton1/style'
 import CloseSmall from '../../../img/CloseSmall.png'
 

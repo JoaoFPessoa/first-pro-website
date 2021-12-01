@@ -104,4 +104,33 @@ color: white;
 }
 
 `
+export const HamburgerContainer = styled.div`
+display: none;
+@media(max-width: 768px){
+  display: inline;
+  position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 329px;
+  top: 13px;
+  color: white;
+}
+`
 
+export const MobileNavBar = styled.div`
+position: absolute;
+left: 270px;
+top: 120px;
+height: 26px;
+display: flex;
+justify-content: space-around;
+flex-flow: column nowrap;
+width: 100px;
+
+.mobile-navbar {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+`

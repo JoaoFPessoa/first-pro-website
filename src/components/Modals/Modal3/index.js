@@ -1,4 +1,4 @@
-import { Overlay, Container, Title, SubtitleContainer, IconsContainer, IconName, Teste } from './style'
+import { Overlay, Container, Title, SubtitleContainer, IconsContainer, IconName, Teste } from '../Modal1/style'
 import Icon from './icon'
 import MiniIcon from "./miniIcon"
 import {Close} from '../../ModalButtons/ModalButton1/style'

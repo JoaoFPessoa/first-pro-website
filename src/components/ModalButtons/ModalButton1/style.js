@@ -82,4 +82,11 @@ position: absolute;
 top: 550px;
 right: 400px;
 cursor: pointer;
+
+@media(max-width: 768px){
+    width: 30px;
+    height: 30px;
+    top: 610px;
+    right: 150px;
+}
 `
