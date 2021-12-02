@@ -155,4 +155,7 @@ position: absolute;
 width: 25px;
 height: 247px;
 left: 550px;
+@media(max-width: 768px){
+    display: none;
+}
 `

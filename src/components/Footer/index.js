@@ -1,4 +1,4 @@
-import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, Servicos, ContactTitle, Cellphone, Container, Title, Logotipo} from './style.js'
+import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, ContactTitle, Cellphone, Container, Title, Logotipo, ServicosFooter} from './style.js'
 import LogoImg from '../../img/logotipo.svg'
 import Whatsapp from '../../img/Whatsapp.svg'
 import { LocationContainer } from './style.js'
@@ -21,24 +21,24 @@ export default function Footer(){
                 Serviços
             </Subtitle>
             <ContainerServicos>
-                <Servicos>
+                <ServicosFooter>
                 Central de monitoramento
-                </Servicos>
-                <Servicos>
+                </ServicosFooter>
+                <ServicosFooter>
                 Pronta resposta veicular
-                </Servicos>
-                <Servicos>
+                </ServicosFooter>
+                <ServicosFooter>
                 Pronta resposta patrimonial
-                </Servicos>
-                <Servicos>
+                </ServicosFooter>
+                <ServicosFooter>
                 Assistência veicular 24 horas
-                </Servicos>
-                <Servicos>
+                </ServicosFooter>
+                <ServicosFooter>
                 Acompanhamento jurídico
-                </Servicos>
-                <Servicos>
+                </ServicosFooter>
+                <ServicosFooter>
                 Sindicância
-                </Servicos>                
+                </ServicosFooter>                
             </ContainerServicos>
             <ContactTitle>
                 Contato

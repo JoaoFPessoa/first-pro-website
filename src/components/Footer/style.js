@@ -87,7 +87,7 @@ height: 300px;
 }
 `
 
-export const Servicos = styled.div`
+export const ServicosFooter = styled.div`
 width: 300px;
 height: 26px;
 font-size: 16px;

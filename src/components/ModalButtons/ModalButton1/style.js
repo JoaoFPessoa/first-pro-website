@@ -77,7 +77,7 @@ transform: rotate(90deg);
 }
 `
 
-export const Button = styled.button`
+export const Button = styled.div`
 cursor: pointer;
 `
 
