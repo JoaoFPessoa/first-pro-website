@@ -1,9 +1,10 @@
-import {Aspas, ClientName, ClientPicture, Container, ContainerTwo, Depoimentos, Text, Title} from './style'
+import {Aspas, ClientName, ClientPicture, Container, ContainerTwo, Depoimentos, Divisor, Text, Title} from './style'
 import { Arrow, ArrowTwo } from './style'
 import LeftArrow from '../../img/Arrow.svg'
 import RightArrow from '../../img/Arrow2.svg'
 import AspasImage from '../../img/Aspas.svg'
 import Client1 from '../../img/Client1.svg'
+import DivisorImg from '../../img/Group 179.svg'
 
 export default function Testimony() {
 
@@ -16,6 +17,7 @@ return(
         O que nossos clientes
         dizem sobre nós.
         </Title>
+        <Divisor src={DivisorImg}/>
         <ContainerTwo>
         <Aspas src={AspasImage} />
         <Text>

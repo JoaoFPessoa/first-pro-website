@@ -11,26 +11,26 @@ background: #242424;
 @media(max-width: 768px){
     top: 4200px;
     left: 0px;
-    width: 500px;
+    max-width: 375px;
     height: 214px;
 }
 `
 
 export const Title = styled.div` 
-width: 400px;
+width: 350px;
 height: 80px;
-margin-left: 64px;
-margin-top: 56px;
+margin-left: 115px;
+margin-top: 40px;
+font-family: DM Sans;
 font-weight: 500;
 font-size: 40px;
 line-height: 48px;
 color: #EBEBEB;
-text-align: center;
 
 @media(max-width: 768px){
     width: 275px;
     height: 70px;
-    left: 23px;
+    margin-left: 20px;
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
@@ -58,10 +58,10 @@ flex-wrap: wrap;
 }
 `
 export const Icons = styled.img`
-width: 80px;
-height: 70px;
-margin-right: 10px;
-/* black1 */
+width: 70px;
+height: 60px;
+margin-right: 15px;
+padding: 5px;
 background: #191919;
 border-radius: 4px;
 `
@@ -69,14 +69,28 @@ export const Line = styled.div`
 position: absolute;
 width: 1200px;
 height: 2px;
-margin-top: 15px;
+margin-top: 30px;
 background: radial-gradient(50% 4499999.95% at 50% 100.05%, #FF8F01 0%, rgba(255, 143, 1, 0) 100%);
 transform: matrix(1, 0, 0, -1, 0, 0);
 
 @media(max-width: 768px){
-    width: 375px;
+width: 375px;
 height: 2px;
 left: 0px;
-margin-top: 30px;
+bottom: 0px;
+}
+`
+
+export const Shield = styled.img`
+position: absolute;
+width: 230px;
+height: 205px;
+margin-left: 500px;
+bottom: 30px;
+@media(max-width: 768px){
+    position: relative;
+
+    bottom: 180px;
+    right: 260px;
 }
 `

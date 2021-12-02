@@ -1,4 +1,4 @@
-import {HomeContainer, Title, Subtitle} from './style'
+import {HomeContainer, Title, Subtitle, Background} from './style'
 import {TextOne, TextTwo} from '../../components/HomeComponents/texts'
 import {HireButton} from '../../components/Buttons/hire-button'
 import {ProviderButton} from '../../components/Buttons/provider-button'
@@ -16,6 +16,7 @@ import Testimony from '../../components/Testimony'
 import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
 import HomeShield from '../../components/HomeComponents'
+import Map from '../../img/default_map (Traced).svg'
 
 
 
@@ -23,8 +24,8 @@ export default function Home() {
 
     return (
         <HomeContainer>
+            <Background src={Map}/>
             <Header />
-
             <Title>
             <TextOne />
             </Title>

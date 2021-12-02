@@ -1,4 +1,4 @@
-import { IconStyle } from '../Modal1/style';
+import { IconStyle } from './style';
 
 export default function Icon(props) {
     return (

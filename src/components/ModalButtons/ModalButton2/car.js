@@ -1,5 +1,5 @@
 import { CarStyle } from "./style";
-import Car from '../../../img/Car1.png'
+import Car from '../../../img/car 1.svg'
 
 export default function Car1() {
     return (

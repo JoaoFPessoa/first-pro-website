@@ -30,7 +30,7 @@ export default function ModalButton3() {
         </Button>
         {showModal && (        <Modal3 showModal={showModal} setShowModal={openModal} 
         modal={{image: Home, 
-            title: 'Pronta resposta matrimonial', 
+            title: 'Pronta resposta patrimonial', 
             subtitle: 'Com objetivo de garantir a segurança do imóvel, a equipe de agentes da PRMA Federal, faz a inspeção para verificar eventuais danos e intrusões buscando garantir a segurança até o término da operação.'
             ,iconList: [
                 {name: 'Vistoria de disparos de alarme',

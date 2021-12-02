@@ -8,9 +8,9 @@ height: 250px;
 left: 112px;
 top: 3600px;
 @media(max-width: 768px){
-    top: 4600px;
+    top: 4500px;
     left: 0;
-    width: 500px;
+    width: 375px;
 }
 
 `
@@ -55,7 +55,9 @@ color: #B8B8B8;
 
 @media(max-width: 768px){
     left: 20px;
-    top: 660px;
+    top: 750px;
+    font-size: 12px;
+    line-height: 22px;
 }
 `
 export const Subtitle = styled.div`
@@ -65,7 +67,6 @@ height: 30px;
 left: 416px;
 font-size: 20px;
 line-height: 30px;
-/* white */
 color: #EBEBEB;
 
 @media(max-width: 768px){
@@ -98,8 +99,8 @@ padding-bottom: 7px;
 @media(max-width: 768px){
     width: 200px;
     height: 35px;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 22px;
 }
 `
 export const ContactTitle = styled.div`
@@ -109,12 +110,11 @@ height: 30px;
 left: 937px;
 font-size: 20px;
 line-height: 30px;
-/* white */
 color: #EBEBEB;
 
 @media(max-width: 768px){
     left: 20px;
-    top: 450px;
+    top: 470px;
     
 }
 `
@@ -131,7 +131,7 @@ color: #FFFFFF;
 
 @media(max-width: 768px){
     left: 49px;
-    top: 490px;
+    top: 530px;
     
 }
 `
@@ -144,7 +144,7 @@ top: 56px;
 
 @media(max-width: 768px){
     left: 20px;
-    top: 490px;
+    top: 530px;
     
 }
 `
@@ -161,7 +161,7 @@ color: #FFFFFF;
 
 @media(max-width: 768px){
     left: 20px;
-    top: 520px;
+    top: 560px;
 }
 `
 
@@ -174,7 +174,7 @@ left: 936px;
 
 @media(max-width: 768px){
     left: 20px;
-    top: 570px;
+    top: 630px;
 }
 `
 
@@ -182,6 +182,10 @@ export const LocationImg = styled.img`
 position: absolute;
 width: 24px;
 height: 24px;
+@media(max-width: 768px){
+    width: 15px;
+    height: 20px;
+}
 `
 export const Location = styled.div`
 font-size: 16px;
@@ -191,4 +195,8 @@ left: 30px;
 position: absolute;
 width: 183px;
 height: 52px;
+@media(max-width: 768px){
+    font-size: 14px;
+    line-height: 24px;
+}
 `

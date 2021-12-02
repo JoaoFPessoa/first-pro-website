@@ -10,7 +10,7 @@ top: 2850px;
 @media(max-width: 768px){
     top: 3600px;
     left: 0;
-    width: 500px;
+    width: 375px;
 }
 `
 
@@ -18,7 +18,7 @@ export const Depoimentos = styled.div`
 position: absolute;
 width: 101px;
 height: 26px;
-
+font-family: Inter;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
@@ -38,7 +38,7 @@ position: absolute;
 width: 417px;
 height: 50px;
 top: 50px;
-
+font-family: 'DM Sans';
 font-weight: 500;
 font-size: 30px;
 line-height: 48px;
@@ -63,8 +63,7 @@ left: 0;
 background: #242424;
 border-radius: 4px;
 @media(max-width: 768px){
-    top: 450px;
-    left: 20px;
+    display: none;
 }
 `
 
@@ -78,8 +77,7 @@ height: 48px;
 background: #242424;
 border-radius: 4px;
 @media(max-width: 768px){
-    top: 450px;
-    left: 76px;
+    display: none;
 }
 `
 
@@ -92,6 +90,7 @@ top: 3186px;
 @media(max-width: 768px){
     margin-top: 150px;
     margin-left: 20px;
+    width: 375px;
 }
 `
 
@@ -104,6 +103,7 @@ height: 36px;
 `
 
 export const Text = styled.div`
+font-family: Inter;
 font-size: 15px;
 line-height: 26px;
 color: #EBEBEB;
@@ -134,6 +134,7 @@ width: 256px;
 height: 20px;
 left: 800px;
 top: 160px;
+font-family: DM Sans;
 font-weight: 500;
 font-size: 20px;
 line-height: 20px;
@@ -147,4 +148,11 @@ color: #EBEBEB;
     line-height: 20px;
     top: 340px;
 }
+`
+
+export const Divisor = styled.img`
+position: absolute;
+width: 25px;
+height: 247px;
+left: 550px;
 `

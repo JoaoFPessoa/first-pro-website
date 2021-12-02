@@ -1,12 +1,12 @@
-import { Container, IconContainer, Icons, Title, Line } from "./style";
+import { Container, IconContainer, Icons, Title, Line, Shield } from "./style";
 import { HButton2 } from "../Buttons/styles";
-import Shield from './shield.js'
 import Balance from './img/balance-two 1(1).svg'
 import Car from './img/car 1(1).svg'
 import Home from './img/home 1.svg'
 import Preview from './img/preview-open 1.svg'
 import Protect from './img/protect 1.svg'
 import FileFocus from './img/file-focus 1(1).svg'
+import ShieldImg from '../HomeComponents/shield.svg'
 
 export default function Banner(){
     return(
@@ -18,7 +18,7 @@ export default function Banner(){
             <HButton2>
                 Contrate a PRMA
             </HButton2>
-            {/* <Shield /> */}
+            <Shield src={ShieldImg} />
             <IconContainer>
                 <Icons src={Preview} />
                 <Icons src={Car} />

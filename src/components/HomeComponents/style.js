@@ -47,7 +47,17 @@ top: 78px;
 @media(max-width: 768px) {
 top: 470px;
 left: 0px;
-width: 400.92px;
+width: 375px;
 height: 350.96px;
 background-image: url(${Map});  
+`
+export const Background = styled.img`
+position: absolute;
+width: 1680px;
+height: 634px;
+left: 222px;
+top: 0px;
+opacity: 0.06;
+border: 1px solid white;
+z-index: 100
 `

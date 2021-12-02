@@ -1,8 +1,9 @@
-import { Overlay, Container, Title, SubtitleContainer, IconsContainer, IconName, Teste } from '../Modal1/style'
+import { Overlay, Title, IconName, Teste } from '../Modal1/style'
+import { IconsContainer, SubtitleContainer, Container } from './style'
 import Icon from './icon'
 import MiniIcon from "./miniIcon"
-import {Close} from '../../ModalButtons/ModalButton1/style'
 import CloseSmall from '../../../img/CloseSmall.png'
+import { Close5 } from '../../ModalButtons/ModalButton5/style'
 
 export default function Modal5 (props) {
     return(
@@ -26,7 +27,7 @@ export default function Modal5 (props) {
 
 ))}
             </Teste>   
-            <Close onClick = {props.setShowModal} src={CloseSmall} />   
+            <Close5 onClick = {props.setShowModal} src={CloseSmall} />   
             </Container>
         </Overlay>
 

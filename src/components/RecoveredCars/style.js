@@ -9,7 +9,7 @@ top: 2300px;
 @media(max-width: 768px){
     dispĺay: none;
     left: 20px;
-    width: 500px;
+    width: 375px;
 }
 `
 
@@ -19,10 +19,11 @@ width: 48px;
 height: 48px;
 background: #242424;
 border-radius: 4px;
+padding: 10px;
+
 @media(max-width: 768px){
     top: 730px;
-    width: 64px;
-    height: 64px;
+    padding: 8px;
 }
 `
 export const Subtitle = styled.div`
@@ -31,6 +32,7 @@ width: 200px;
 height: 26px;
 left: 130px;
 top: 1px;
+font-family: Inter;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
@@ -49,12 +51,14 @@ width: 400px;
 height: 48px;
 left: 128px;
 top: 31px;
+font-family: DM Sans;
 font-weight: 500;
 font-size: 40px;
 line-height: 48px;
 color: #EBEBEB;
 
 @media(max-width: 768px){
+    width: 375px;
     top: 845px;
     font-size: 30px;
     line-height: 35px;
@@ -99,7 +103,7 @@ margin-top: 144px;
 display: flex;
 @media(max-width: 768px){
     margin-top: 910px;
-    max-width: 390px;
+    max-width: 375px;
     overflow-x: auto;
 }
 `
@@ -111,14 +115,15 @@ padding-right: 32px;
 
 @media(max-width: 768px){
     top: 500px;
+    width: 200px;
 }
 `
 export const Location = styled.div`
 width: 312px;
 height: 26px;
-
-/* white */
 color: #EBEBEB;
+
+
 @media(max-width: 768px){
     display: none;
     width: 0;
@@ -127,17 +132,17 @@ color: #EBEBEB;
 export const LocationContainer = styled.div`
 display: flex;
 position: absolute;
+margin-top: 20px;
 `
 export const Date = styled.div`
 width: 312px;
 height: 26px;
-
+font-family: Inter;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
-
-/* white */
 color: #EBEBEB;
+
 @media(max-width: 768px){
     display: none;
     width: 0;
@@ -147,4 +152,5 @@ export const DateContainer = styled.div`
 display: flex;
 position: absolute;
 padding-top: 30px;
+margin-top: 20px;
 `

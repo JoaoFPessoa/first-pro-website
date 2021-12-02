@@ -15,6 +15,11 @@ width: 148px;
 height: 60px;
 left: 205px;
 top: 753px;
+font-family: 'DM Sans', sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
 @media(max-width: 768px){
     width: 104px;
     height: 48px;
@@ -22,6 +27,7 @@ top: 753px;
     top: 790px;
     font-size: 14px;
     line-height: 24px;
+    text-align: left;
 }
 `
 
@@ -47,14 +53,14 @@ position: absolute;
 width: 48px;
 height: 48px;
 left: 112px;
-top: 759px;
+top: 749px;
 background: #242424;
+padding: 10px;
 border-radius: 4px;
 @media(max-width: 768px){
-    width: 64px;
-    height: 64px;
     left: 20px;
     top: 790px;
+    padding: 8px;
 `
 
 export const Line3 = styled.div`
@@ -86,7 +92,7 @@ cursor: pointer;
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 610px;
+    top: 500px;
     right: 150px;
 }
 `

@@ -5,8 +5,14 @@ export const Text = styled.div`
 position: absolute;
 width: 188px;
 height: 60px;
-left: 900px;
+left: 940px;
 top: 900px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
 @media(max-width: 768px){
     width: 154px;
     height: 48px;
@@ -14,6 +20,7 @@ top: 900px;
     top: 1267px;
     font-size: 14px;
     line-height: 24px;
+    text-align: left;
 }
 `
 
@@ -41,9 +48,23 @@ left: 860px;
 top: 887px;
 background: #242424;
 border-radius: 4px;
+padding: 10px;
 @media(max-width: 768px){
-    width: 64px;
-    height: 64px;
+    padding: 8px;
     left: 20px;
     top: 1247px;
 `
+export const Close6 = styled.img`
+width: 50px;
+height: 50px;
+position: absolute;
+top: 550px;
+right: 400px;
+cursor: pointer;
+
+@media(max-width: 768px){
+    width: 30px;
+    height: 30px;
+    top: 630px;
+    right: 130px;
+}`

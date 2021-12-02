@@ -12,8 +12,7 @@ export default createGlobalStyle`
         max-height: 100vh;
         max-width: 100vw;
         height: 100%;
-        font-family: 'DM Sans', sans-serif;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Inter', 'DM Sans', sans-serif;
         background: #191919;
         @media(max-width:768px){
             max-width: 500px;

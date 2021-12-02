@@ -7,6 +7,10 @@ height: 80px;
 left: 0px;
 top: 0px;
 background: #191919;
+opacity: 0.8;
+@media(max-width:768px){
+  max-width: 375px;
+}
 `
 
 export const LogoCompany = styled.img`
@@ -62,7 +66,7 @@ color: #B8B8B8;
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
-  color: white;
+  color: #B8B8B8;
 }
 
 .servicos{
@@ -75,8 +79,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 text-decoration: none;
-color: white;
-}
+color: #B8B8B8;}
 
 .quem-somos{
   position: absolute;
@@ -87,7 +90,7 @@ top: 35px;
 font-size: 16px;
 line-height: 26px;
 text-decoration: none;
-color: white;
+color: #B8B8B8;
 }
 
 .contato{
@@ -99,8 +102,8 @@ color: white;
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
-  color: white;
-  font-family: 'Inter', sans-serif;
+  color: #B8B8B8;
+    font-family: 'Inter', sans-serif;
 }
 
 `
@@ -111,7 +114,7 @@ display: none;
   position: absolute;
   width: 26px;
   height: 12px;
-  left: 329px;
+  left: 310px;
   top: 13px;
   color: white;
 }
@@ -119,13 +122,13 @@ display: none;
 
 export const MobileNavBar = styled.div`
 position: absolute;
-left: 270px;
+left: 110px;
 top: 120px;
 height: 26px;
 display: flex;
 justify-content: space-around;
 flex-flow: column nowrap;
-width: 100px;
+width: 150px;
 
 .mobile-navbar {
   text-decoration: none;

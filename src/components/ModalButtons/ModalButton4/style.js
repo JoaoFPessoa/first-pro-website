@@ -7,6 +7,12 @@ width: 188px;
 height: 60px;
 left: 200px;
 top: 887px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
 @media(max-width: 768px){
     width: 154px;
     height: 48px;
@@ -14,6 +20,7 @@ top: 887px;
     top: 1063px;
     font-size: 14px;
     line-height: 24px;
+    text-align: left;
 }
 `
 
@@ -41,9 +48,23 @@ left: 112px;
 top: 887px;
 background: #242424;
 border-radius: 4px;
-@media(max-width: 768px){
-    width: 64px;
-    height: 64px;
+padding: 10px;
+@media(max-width: 768px){;
+    padding: 8px;
     left: 20px;
-    top: 1063px;
+    top: 1048px;
 `
+export const Close4 = styled.img`
+width: 50px;
+height: 50px;
+position: absolute;
+top: 550px;
+right: 400px;
+cursor: pointer;
+
+@media(max-width: 768px){
+    width: 30px;
+    height: 30px;
+    top: 500px;
+    right: 90px;
+}`
