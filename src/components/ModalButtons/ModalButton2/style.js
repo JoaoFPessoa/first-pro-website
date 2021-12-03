@@ -78,5 +78,5 @@ cursor: pointer;
     width: 30px;
     height: 30px;
     top: 530px;
-    right: 100px;
+    right: 120px;
 }`

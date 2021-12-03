@@ -22,8 +22,8 @@ color: white;
 box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 margin-right: 125px;
 @media(max-width: 768px){
-    width: 375px;
-    margin-left:60px;
+    width: 305px;
+    margin-left:05px;
     height: 470px;
 }
 `
@@ -39,12 +39,9 @@ export const Title = styled.div`
 width: 550px;
 height: 80px;
 margin-top: 40px;
-
-
 font-weight: 500;
 font-size: 32px;
 line-height: 40px;
-
 color: #EBEBEB;
 display:flex;`
 

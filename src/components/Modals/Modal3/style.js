@@ -23,7 +23,7 @@ color: white;
 box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 margin-right: 125px;
 @media(max-width: 768px){
-    width: 375px;
+    width: 295px;
     margin-left:50px;
     height: 550px;
 }
@@ -50,6 +50,7 @@ display:flex;
     font-size: 14px;
     line-height: 15px;
     margin-top: 20px;
+    width: 210px;
     }
 `
 

@@ -89,7 +89,6 @@ margin-left: 500px;
 bottom: 30px;
 @media(max-width: 768px){
     position: relative;
-
     bottom: 180px;
     right: 260px;
 }

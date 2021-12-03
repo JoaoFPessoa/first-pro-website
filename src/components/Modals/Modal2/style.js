@@ -23,8 +23,8 @@ color: white;
 box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 margin-right: 125px;
 @media(max-width: 768px){
-    width: 375px;
-    margin-left:50px;
+    max-width: 295px;
+    margin-left:20px;
     height: 550px;
 }
 `
@@ -41,7 +41,7 @@ border-radius: 4px;
 @media(max-width: 768px){
 width: 30px;
 height: 30px;
-margin-left:10px;
+margin-left:5px;
 }
 `
 
@@ -58,6 +58,7 @@ display:flex;
     font-size: 14px;
     line-height: 15px;
     margin-top: 20px;
+    width: 190px;
     }
 `
 

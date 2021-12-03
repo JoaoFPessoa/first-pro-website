@@ -92,7 +92,7 @@ cursor: pointer;
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 500px;
-    right: 150px;
+    top: 505px;
+    right: 120px;
 }
 `
