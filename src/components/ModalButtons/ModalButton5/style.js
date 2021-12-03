@@ -5,7 +5,7 @@ export const Text = styled.div`
 position: absolute;
 width: 188px;
 height: 60px;
-left: 585px;
+left: 590px;
 top: 887px;
 font-family: DM Sans;
 font-style: normal;
@@ -26,7 +26,7 @@ text-align: left;
 
 export const SetaStyle = styled.img`
 position: absolute;
-left: 755px;
+left: 760px;
 right: 14.58%;
 top: 921px;
 bottom: -25%;
@@ -48,7 +48,7 @@ left: 500px;
 top: 887px;
 background: #242424;
 border-radius: 4px;
-padding: 10px;
+padding: 15px;
 @media(max-width: 768px){
     padding: 8px;
     left: 20px;
@@ -58,8 +58,8 @@ export const Close5 = styled.img`
 width: 50px;
 height: 50px;
 position: absolute;
-top: 550px;
-right: 400px;
+top: 490px;
+right: 260px;
 cursor: pointer;
 
 @media(max-width: 768px){

@@ -15,11 +15,11 @@ top: 2300px;
 
 export const CarIcon = styled.img `
 position: absolute;
-width: 48px;
-height: 48px;
+width: 40px;
+height: 40px;
 background: #242424;
 border-radius: 4px;
-padding: 10px;
+padding: 15px;
 
 @media(max-width: 768px){
     top: 730px;
@@ -68,12 +68,11 @@ color: #EBEBEB;
 
 export const LeftArrow = styled.img`
 cursor: pointer;
-left: 1112px;
+left: 1030px;
 top: 32px;
 position: absolute;
 width: 48px;
 height: 48px;
-/* black2 */
 background: #242424;
 border-radius: 4px;
 @media(max-width: 768px){
@@ -84,7 +83,7 @@ border-radius: 4px;
 
 export const RightArrow = styled.img`
 cursor: pointer;
-left: 1168PX;
+left: 1090px;
 top: 32px;
 position: absolute;
 width: 48px;

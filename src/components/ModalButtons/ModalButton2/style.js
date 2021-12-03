@@ -24,7 +24,7 @@ left: 500px;
 top: 749px;
 background: #242424;
 border-radius: 4px;
-padding: 10px;
+padding: 15px;
 @media(max-width: 768px){
     padding: 8px;
     left: 20px;
@@ -34,7 +34,7 @@ export const Text = styled.div`
 position: absolute;
 width: 151px;
 height: 60px;
-left: 580px;
+left: 590px;
 top: 753px;
 font-family: DM Sans;
 font-style: normal;
@@ -54,7 +54,7 @@ text-align: left;
 
 export const SetaStyle = styled.img`
 position: absolute;
-left: 750px;
+left: 755px;
 right: 14.58%;
 top: 777px;
 bottom: -25%;
@@ -71,7 +71,7 @@ width: 50px;
 height: 50px;
 position: absolute;
 top: 550px;
-right: 400px;
+right: 250px;
 cursor: pointer;
 
 @media(max-width: 768px){

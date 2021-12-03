@@ -58,12 +58,13 @@ flex-wrap: wrap;
 }
 `
 export const Icons = styled.img`
-width: 70px;
-height: 60px;
+width: 50px;
+height: 40px;
 margin-right: 15px;
-padding: 5px;
+padding: 10px;
 background: #191919;
 border-radius: 4px;
+
 `
 export const Line = styled.div`
 position: absolute;

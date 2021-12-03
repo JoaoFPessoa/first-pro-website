@@ -55,7 +55,7 @@ height: 48px;
 left: 112px;
 top: 749px;
 background: #242424;
-padding: 10px;
+padding: 15px;
 border-radius: 4px;
 @media(max-width: 768px){
     left: 20px;
@@ -85,8 +85,8 @@ export const Close = styled.img`
 width: 50px;
 height: 50px;
 position: absolute;
-top: 550px;
-right: 400px;
+top: 490px;
+right: 260px;
 cursor: pointer;
 
 @media(max-width: 768px){

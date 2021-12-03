@@ -40,7 +40,7 @@ flex: 1;
 
 export const ShieldStyle = styled.img`
 position: absolute;
-width: 717.92px;
+width: 650.92px;
 height: 600.96px;
 left: 597px;
 top: 78px;

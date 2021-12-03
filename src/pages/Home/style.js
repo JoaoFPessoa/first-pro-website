@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-position: absolute;
-width: 1440px;
+position: relative;
+width: 99vw;
 height: 634px;
 left: 0px;
 top: 0px;
 background: #191919;
+overflow-x: hidden;
 
 @media(max-width: 768px){
   max-width: 375px;
@@ -37,7 +38,7 @@ left: 33px;
 `
 export const Subtitle = styled.div`
 position: absolute;
-width: 417px;
+width: 450px;
 height: 64px;
 left: 111px;
 top: 450px;

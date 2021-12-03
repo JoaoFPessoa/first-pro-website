@@ -2,7 +2,7 @@ import { Overlay, IconName, Teste } from '../Modal1/style'
 import { IconsContainer, ModalTitle, Container, SubtitleContainer } from './style'
 import Icon from './icon'
 import MiniIcon from "./miniIcon"
-import CloseSmall from '../../../img/CloseSmall.png'
+import CloseSmall from '../../../img/close-small.svg'
 import { Close2 } from '../../ModalButtons/ModalButton2/style'
 
 export default function Modal2 (props) {

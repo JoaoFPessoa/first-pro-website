@@ -29,10 +29,10 @@ margin-right: 125px;
 `
 
 export const IconStyle = styled.img`
-width: 84px;
-height: 84px;
+width: 60px;
+height: 60px;
 top: 28px;
-padding: 10px 6px 6px 10px;
+padding: 15px;
 background: #242424;
 margin: 0 30px 0 48px;
 border-radius: 4px;
@@ -46,7 +46,6 @@ margin-left:10px;
 `
 
 export const Title = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 width: 236px;
 height: 80px;
 margin-top: 40px;
@@ -88,6 +87,7 @@ export const IconsContainer = styled.div`
 display: flex;
 margin-top: 65px;
 margin-left: 48px;
+align-items: center;
 @media(max-width: 768px){
     margin-top: 5px;
     margin-left: 10px;
@@ -95,14 +95,15 @@ margin-left: 48px;
 `
 
 export const MiniIconStyle = styled.img`
-width: 46px;
-height: 46px;
+width: 40px;
+height: 40px;
 background: #242424;
 border-radius: 4px;
-padding: 10px;
+padding: 15px;
 @media(max-width:768px){
     width: 20px;
     height: 20px;
+    padding: 10px;
 }
 `
 export const IconName = styled.div`
@@ -112,6 +113,7 @@ margin-left: 24px;
 font-size: 14px;
 line-height: 26px;
 color: #EBEBEB;
+
 @media(max-width:768px){
     width: 100px;
     margin-right: 30px;
