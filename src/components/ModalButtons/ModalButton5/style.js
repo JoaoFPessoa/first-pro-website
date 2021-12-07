@@ -65,6 +65,6 @@ cursor: pointer;
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 575px;
-    right: 130px;
+    top: 600px;
+    right: 85px;
 }`

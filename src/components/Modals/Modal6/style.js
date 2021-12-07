@@ -29,7 +29,7 @@ box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 margin-right: 125px;
 @media(max-width: 768px){
     width: 100%;
-    margin-left:20px;
+    margin-left:33%;
     height: 350px;
 }
 `

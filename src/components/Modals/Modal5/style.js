@@ -23,7 +23,7 @@ box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
 margin-right: 125px;
 @media(max-width: 768px){
     width: 305px;
-    margin-left:05px;
+    margin-left:33%;
     height: 470px;
 }
 `
@@ -40,7 +40,7 @@ width: 550px;
 height: 80px;
 margin-top: 40px;
 font-weight: 500;
-font-size: 32px;
+font-size: 28px;
 line-height: 40px;
 color: #EBEBEB;
 display:flex;`
@@ -52,7 +52,7 @@ width: 604px;
 height: 52px;
 margin-top: 60px;
 margin-left: 48px;
-font-size: 16px;
+font-size: 11px;
 line-height: 26px;
 color: #B8B8B8;
 

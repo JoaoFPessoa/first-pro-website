@@ -66,5 +66,5 @@ cursor: pointer;
     width: 30px;
     height: 30px;
     top: 630px;
-    right: 120px;
+    right: 70px;
 }`

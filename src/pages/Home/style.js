@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HomeContainer = styled.div`
 position: relative;
 width: 99vw;
-height: 634px;
+height: 100vh;
 left: 0px;
 top: 0px;
 background: #191919;
