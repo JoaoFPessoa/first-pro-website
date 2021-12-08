@@ -1,4 +1,4 @@
-import { CarIcon, CardContainer, Container, LeftArrow, Rectangle, RightArrow, Subtitle, Title, Card, Location, LocationContainer, Location2, Location3, Location4, DateContainer, Date } from "./style";
+import { CarIcon, CardContainer, Container, LeftArrow, Rectangle, RightArrow, Subtitle, Title, Card, Location, LocationContainer, Location2, Location3, Location4, DateContainer, Date, Overflow } from "./style";
 import Car1 from '../../img/car 1.svg'
 import Arrow from '../../img/Arrow.svg'
 import Arrow2 from '../../img/Arrow2.svg'
@@ -19,6 +19,8 @@ export default function RecoveredCars() {
         </Title>
         <LeftArrow src={Arrow} />
         <RightArrow src={Arrow2} />
+
+        <Overflow>
         <CardContainer>
         <Card src={RecoveredCar1} />
         <Card src={RecoveredCar2} />
@@ -54,6 +56,7 @@ export default function RecoveredCars() {
             Recuperado em 21.11/2021
             </Date>
         </DateContainer>
+        </Overflow>
     </Container>
 
     )

@@ -2,15 +2,21 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
 position: relative;
-width: 99vw;
+width: 101vw;
 height: 100vh;
 left: 0px;
 top: 0px;
 background: #191919;
 overflow-x: hidden;
+margin-left: -25px;
+
+@media (min-device-width: 768px) and (max-device-width: 1024px){
+  overflow-x: visible;
+}
 
 @media(max-width: 768px){
   max-width: 375px;
+  margin-left: 0;
 }
 `
 

@@ -7,7 +7,7 @@ height: 500px;
 left: 112px;
 top: 2300px;
 @media(max-width: 768px){
-    dispĺay: none;
+    position: absolute;
     left: 20px;
     width: 375px;
 }
@@ -39,7 +39,7 @@ line-height: 26px;
 color: #B8B8B8;
 
 @media(max-width: 768px){
-    top: 820px;
+    top: 840px;
     left: 0px;
     font-size: 14px;
     line-height: 24px;
@@ -50,16 +50,15 @@ position: absolute;
 width: 400px;
 height: 48px;
 left: 128px;
-top: 31px;
+top: 30px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 40px;
 line-height: 48px;
 color: #EBEBEB;
-
 @media(max-width: 768px){
     width: 375px;
-    top: 845px;
+    top: 805px;
     font-size: 30px;
     line-height: 35px;
     left: 0px;
@@ -88,23 +87,27 @@ top: 32px;
 position: absolute;
 width: 48px;
 height: 48px;
-/* black2 */
 background: #242424;
 border-radius: 4px;
 @media(max-width: 768px){
     display: none;
 }
 `
+export const Overflow = styled.div`
+
+@media(max-width: 768px){
+    overflow-x: auto;
+    margin-top: 720px;
+    width: 100vw;
+}
+`
+
 export const CardContainer = styled.div`
 width: 1216px;
-height: 280px;
-margin-top: 144px;
+height: 250px;
+margin-top: 154px;
 display: flex;
 @media(max-width: 768px){
-    margin-top: 910px;
-    max-width: 375px;
-    overflow-x: auto;
-}
 `
 export const Card = styled.img`
 width: 280px;
@@ -114,42 +117,54 @@ padding-right: 32px;
 
 @media(max-width: 768px){
     top: 500px;
-    width: 200px;
-}
-`
-export const Location = styled.div`
-width: 312px;
-height: 26px;
-color: #EBEBEB;
-
-
-@media(max-width: 768px){
-    display: none;
-    width: 0;
+    width: 400px;
 }
 `
 export const LocationContainer = styled.div`
 display: flex;
-position: absolute;
-margin-top: 20px;
+margin-top: 50px;
+width: 1300px;
+@media(max-width:768px){
+    position: relative;
+    margin-top: 40px;
+    width: 1300px;
+}
 `
+export const Location = styled.div`
+width: 280px;
+height: 0px;
+color: #EBEBEB;
+margin-right: 33px;
+@media(max-width: 768px){
+    width: 280px;
+    font-size: 13px;
+    height: 0px;
+}
+`
+
 export const Date = styled.div`
-width: 312px;
+width: 280px;
+margin-right: 33px;
 height: 26px;
 font-family: Inter;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 color: #EBEBEB;
-
 @media(max-width: 768px){
-    display: none;
-    width: 0;
+    font-size: 12px;
+    margin-right: 13px;
+    width: 300px;
 }
 `
 export const DateContainer = styled.div`
 display: flex;
-position: absolute;
 padding-top: 30px;
 margin-top: 20px;
+position: absolute;
+@media(max-width: 768px){
+position: relative;
+margin-top: 0;
+width: 1800px;
+}
 `

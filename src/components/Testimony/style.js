@@ -6,7 +6,7 @@ position: absolute;
 width: 1216px;
 height: 247px;
 left: 112px;
-top: 2850px;
+top: 2950px;
 @media(max-width: 768px){
     top: 3600px;
     left: 0;
@@ -84,7 +84,7 @@ border-radius: 4px;
 export const ContainerTwo = styled.div`
 width: 488px;
 height: 234px;
-margin-left: 728px;
+margin-left: 658px;
 top: 3186px;
 
 @media(max-width: 768px){
@@ -123,7 +123,7 @@ export const ClientPicture = styled.img`
 width: 56px;
 height: 56px;
 border-radius: 4px;
-margin-top: 10px;
+margin-top: 30px;
 @media(max-width: 768px){
     margin-top: 20px;
 }
@@ -132,8 +132,8 @@ export const ClientName = styled.div`
 position: absolute;
 width: 256px;
 height: 20px;
-left: 800px;
-top: 160px;
+left: 730px;
+top: 175px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 20px;
