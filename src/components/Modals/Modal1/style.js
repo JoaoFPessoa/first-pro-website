@@ -11,6 +11,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 z-index: 20;
+@media(max-width: 768px){
+    margin-top: 700px;
+}
 `
 
 export const Container = styled.div`
