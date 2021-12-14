@@ -8,6 +8,7 @@ background: #191919;
 display: flex;
 flex-direction: column;
 align-items: center;
+overflow-x: hidden;
 @media (min-width: 768px) and (max-width: 1280px){
   left: -120px;
   overflow-x: hidden;
