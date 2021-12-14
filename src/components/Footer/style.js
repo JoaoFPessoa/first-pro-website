@@ -174,7 +174,7 @@ display: flex;
 margin-top: 115px;
 
 @media(max-width: 768px){
-    width: 193px;
+    width: 134px;
     height: 52px;
     margin-top: 48px;
 }
@@ -199,7 +199,7 @@ position: relative;
 width: 183px;
 height: 52px;
 @media(max-width: 768px){
-    position: absolute;
+    position: relative;
     font-size: 14px;
     line-height: 24px;
 }
