@@ -23,20 +23,21 @@ export default function ModalButton4() {
     
     return (
         <>
-        <Button onClick={openModal}>
         <ModalStyle>
+        <Button onClick={openModal}>
+        <ProtectIcon />
         <Text>
         Assistência veicular 24 horas
         </Text>
-        <ProtectIcon />
         <Seta4 />
-        <Line5 />
+        {/* <Line5 />
         <Line6 />
         <Line7 />
         <Line8 />
-        <Line9 />
-        </ModalStyle>
+        <Line9 /> */}
         </Button>
+        </ModalStyle>
+
         {showModal && (        <Modal4 showModal={showModal} setShowModal={openModal} 
         modal={{image: Protect, 
             title: 'Assistência veicular 24 horas', 

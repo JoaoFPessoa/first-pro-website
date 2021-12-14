@@ -2,17 +2,16 @@ import styled from 'styled-components'
 
 
 export const Text = styled.div`
-position: absolute;
-width: 188px;
+position: relative;
+width: 170px;
 height: 60px;
-left: 950px;
-top: 900px;
 font-family: DM Sans;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
 text-align: left;
+margin-left: 32px;
 @media(max-width: 768px){
     width: 154px;
     height: 48px;
@@ -21,31 +20,29 @@ text-align: left;
     font-size: 14px;
     line-height: 24px;
     text-align: left;
+    margin-left: 0px;
 }
 `
 
 export const SetaStyle = styled.img`
-position: absolute;
-left: 1140px;
-right: 14.58%;
-top: 921px;
-bottom: -25%;
+position: relative;
 padding: 9px;
 width: 6px;
 height: 12px;
+margin-left: clamp(25px, 50px, 70px);
+
 @media(max-width: 768px) {
     left: 349px;
     top: 1275px;
+    margin-left: 0px;
 }
 `
 
 export const FileIconStyle = styled.img`
 
-position: absolute;
+position: relative;
 width: 48px;
 height: 48px;
-left: 860px;
-top: 887px;
 background: #242424;
 border-radius: 4px;
 padding: 15px;

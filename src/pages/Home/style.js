@@ -2,13 +2,17 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
 position: relative;
-width: 101vw;
+width: 100vw;
 height: 100vh;
-left: 0px;
-top: 0px;
 background: #191919;
-overflow-x: hidden;
-margin-left: -25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+@media (min-width: 768px) and (max-width: 1280px){
+  left: -120px;
+  overflow-x: hidden;
+  width: 109vw;
+}
 
 @media (min-device-width: 768px) and (max-device-width: 1024px){
   overflow-x: visible;
@@ -22,11 +26,10 @@ margin-left: -25px;
 
 export const Title = styled.div`
 color: white;
-position: absolute;
+position: relative;
 width: 474px;
 height: 180px;
-left: 111px;
-top: 12.938rem;
+padding-bottom: 32px;
 font-weight: 500;
 font-size: 56px;
 line-height: 60px;
@@ -43,15 +46,14 @@ left: 33px;
   }
 `
 export const Subtitle = styled.div`
-position: absolute;
+position: relative;
 width: 450px;
 height: 64px;
-left: 111px;
-top: 450px;
 font-family: 'Inter', sans-serif;
 font-size: 18px;
 line-height: 32px;
 color: #B8B8B8;
+padding-bottom: 42px;
 @media(max-width: 768px) {
     width: 295px;
     height: 48px;
@@ -72,10 +74,19 @@ top: 58px;
 `
 
 export const Background = styled.img`
+position: absolute;
 width: 1600px;
 height: 600px;
-z-index: 20;
 @media(max-width: 768px){
   display: none;
 }
+`
+
+export const GlobalContainer = styled.div`
+width: 65vw;
+@media(max-width: 768px) {
+  width: 100vw;
+}
+`
+export const MainModalContainer = styled.div`
 `

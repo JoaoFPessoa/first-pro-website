@@ -59,11 +59,6 @@ color: #EBEBEB;
 
 
 export const Line5 = styled.div`
-position: absolute;
-width: 1100px;
-height: 0px;
-left: 120px;
-top: 855px;
 
 border: 1px solid #303030;
 @media(max-width: 768px){
@@ -74,14 +69,10 @@ top: 862px;
 }
 `
 export const Line6 = styled.div`
-position: absolute;
-width: 1100px;
-height: 0px;
-left: 120px;
-top: 855px;
 
 border: 1px solid #303030;
 @media(max-width: 768px){
+    position: absolute;
 width: 335px;
 height: 0px;
 left: 20px;
@@ -89,14 +80,9 @@ top: 943px;
 }
 `
 export const Line7 = styled.div`
-position: absolute;
-width: 1100px;
-height: 0px;
-left: 120px;
-top: 855px;
-
-border: 1px solid #303030;
 @media(max-width: 768px){
+    position: absolute;
+    border: 1px solid #303030;
 width: 335px;
 height: 0px;
 left: 20px;

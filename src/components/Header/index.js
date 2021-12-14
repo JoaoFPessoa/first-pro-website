@@ -1,4 +1,4 @@
-import {HamburgerContainer, HeaderContainer, LogoCompany, LogoCompanyPRMA, MobileNavBar, NavBar} from './style'
+import {HamburgerContainer, HeaderContainer, LogoCompany, LogoCompanyPRMA, LogoContainer, MobileNavBar, NavBar} from './style'
 import Logo1 from '../../img/Logo1.png'
 import LogoPRMA from '../../img/LogoPRMA.png'
 import React, { useState } from 'react';
@@ -8,10 +8,11 @@ import Hamburger from 'hamburger-react';
 export default function Header() {
     const [open, setOpen] = useState(false)
     return (
-        <BrowserRouter>
         <HeaderContainer>
+        <LogoContainer>
         <LogoCompany src={Logo1} />
         <LogoCompanyPRMA src={LogoPRMA} />
+        </LogoContainer>
         <NavBar id="inicio">
             <a href='#inicio' class="inicio">Inicio</a>
             <a href='#services' class="servicos">Serviços</a>
@@ -33,6 +34,5 @@ export default function Header() {
         </MobileNavBar>
         )}
         </ HeaderContainer>
-        </BrowserRouter>
     )
     }

@@ -1,4 +1,4 @@
-import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, ContactTitle, Cellphone, Container, Title, Logotipo, ServicosFooter} from './style.js'
+import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, ContactTitle, Cellphone, Container, Title, Logotipo, ServicosFooter, LeftContainer, FooterContainer, ContactContainer} from './style.js'
 import LogoImg from '../../img/logotipo.svg'
 import Whatsapp from '../../img/Whatsapp.svg'
 import { LocationContainer } from './style.js'
@@ -8,6 +8,7 @@ import { Location } from './style.js'
 export default function Footer(){
     return(
         <Container>
+            <FooterContainer>
             <Logotipo src={LogoImg}/>
             <Title>
             Soluções rápidas e efetivas
@@ -17,10 +18,11 @@ export default function Footer(){
             PRMA Federal
             © Todos os direitos reservados
             </Trademark>
+            </FooterContainer>
+            <FooterContainer>
             <Subtitle>
                 Serviços
             </Subtitle>
-            <ContainerServicos>
                 <ServicosFooter>
                 Central de monitoramento
                 </ServicosFooter>
@@ -38,15 +40,19 @@ export default function Footer(){
                 </ServicosFooter>
                 <ServicosFooter>
                 Sindicância
-                </ServicosFooter>                
-            </ContainerServicos>
+                </ServicosFooter>    
+                </FooterContainer>  
+
+            <FooterContainer>
             <ContactTitle>
                 Contato
             </ContactTitle>
+            <ContactContainer>
+            <WhatsAppLogo src={Whatsapp} />
             <Cellphone id="contact">
             +55 (11) 4195-0859
             </Cellphone>
-            <WhatsAppLogo src={Whatsapp} />
+            </ContactContainer>
             <Email>
             contato@prmafederal.com.br
             </Email>
@@ -58,6 +64,7 @@ export default function Footer(){
 
                 </Location>
             </LocationContainer>
+            </FooterContainer>
         </Container>
     )
 }

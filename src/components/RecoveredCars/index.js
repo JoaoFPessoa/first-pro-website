@@ -1,4 +1,4 @@
-import { CarIcon, CardContainer, Container, LeftArrow, Rectangle, RightArrow, Subtitle, Title, Card, Location, LocationContainer, Location2, Location3, Location4, DateContainer, Date, Overflow } from "./style";
+import { CarIcon, CardContainer, Container, LeftArrow, Rectangle, RightArrow, Subtitle, Title, Card, Location, LocationContainer, Location2, Location3, Location4, DateContainer, Date, Overflow, TitleContainer, TextContainer, Description } from "./style";
 import Car1 from '../../img/car 1.svg'
 import Arrow from '../../img/Arrow.svg'
 import Arrow2 from '../../img/Arrow2.svg'
@@ -10,15 +10,23 @@ import RecoveredCar4 from '../../img/RecoveredCar4.svg'
 export default function RecoveredCars() {
     return (
     <Container>
+        <TitleContainer>
+        <div style={{display:"flex"}} >
         <CarIcon src={Car1} />
+        <TextContainer>
         <Subtitle>
         Pronta resposta veicular
         </Subtitle>
         <Title>
         Carros recuperados
         </Title>
+        </TextContainer>
+        </div>
+        <div>
         <LeftArrow src={Arrow} />
         <RightArrow src={Arrow2} />
+        </div>
+        </TitleContainer>
 
         <Overflow>
         <CardContainer>
@@ -28,6 +36,7 @@ export default function RecoveredCars() {
         <Card src={RecoveredCar4} />
         </CardContainer>
 
+        <Description>
         <LocationContainer>
         <Location>
             Pinhais - São Paulo
@@ -56,6 +65,7 @@ export default function RecoveredCars() {
             Recuperado em 21.11/2021
             </Date>
         </DateContainer>
+        </Description>
         </Overflow>
     </Container>
 

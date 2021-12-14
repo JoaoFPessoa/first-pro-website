@@ -1,4 +1,4 @@
-import {Aspas, ClientName, ClientPicture, Container, ContainerTwo, Depoimentos, Divisor, Text, Title} from './style'
+import {Aspas, ClientContainer, ClientName, ClientPicture, Container, ContainerTwo, Depoimentos, Divisor, LeftContainer, Text, Title} from './style'
 import { Arrow, ArrowTwo } from './style'
 import LeftArrow from '../../img/Arrow.svg'
 import RightArrow from '../../img/Arrow2.svg'
@@ -10,6 +10,7 @@ export default function Testimony() {
 
 return(
     <Container>
+        <LeftContainer>
         <Depoimentos>
             Depoimentos
         </Depoimentos>
@@ -17,6 +18,9 @@ return(
         O que nossos clientes
         dizem sobre nós.
         </Title>
+        <Arrow src={LeftArrow} />
+        <ArrowTwo src={RightArrow} />
+        </LeftContainer>
         <Divisor src={DivisorImg}/>
         <ContainerTwo>
         <Aspas src={AspasImage} />
@@ -25,12 +29,12 @@ return(
         Velit officia consequat duis enim velit. non deserunt ullamco est sit aliqua 
         dolor do amet sint.
         </Text>
+        <ClientContainer>
         <ClientPicture src={Client1} />
         <ClientName>
             Tiago Luchtenberg
         </ClientName>
-        <Arrow src={LeftArrow} />
-        <ArrowTwo src={RightArrow} />
+        </ClientContainer>
         </ContainerTwo>
     </Container>
 )

@@ -23,17 +23,17 @@ export default function ModalButton1() {
     
     return (
         <>
-        <Button onClick={openModal}>
         <ModalStyle>
+        <Button onClick={openModal}>
+        <Eye1 />
         <Text>
         Central de
         monitoramento
         </Text>
-        <Eye1 />
         <Seta1 />
         <Line3 />
-        </ModalStyle>
         </Button>
+        </ModalStyle>
         {showModal && (        <Modal1 showModal={showModal} setShowModal={openModal} 
         modal={{image: Eye, 
             title: 'Central de monitoramento', 

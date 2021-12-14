@@ -1,14 +1,7 @@
 import styled from 'styled-components'
 
 export const Line4 = styled.div`
-position: absolute;
-width: 229px;
-height: 0px;
-left: 700px;
-top: 850px;
 
-border: 1px solid #303030;
-transform: rotate(90deg);
 
 @media(max-width: 768px){ 
     display: none;
@@ -17,11 +10,9 @@ transform: rotate(90deg);
 
 export const CarStyle = styled.img`
 
-position: absolute;
+position: relative;
 width: 48px;
 height: 48px;
-left: 500px;
-top: 749px;
 background: #242424;
 border-radius: 4px;
 padding: 15px;
@@ -31,17 +22,17 @@ padding: 15px;
     top: 871px;
 `
 export const Text = styled.div`
-position: absolute;
-width: 151px;
+position: relative;
 height: 60px;
-left: 590px;
-top: 753px;
 font-family: DM Sans;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
 text-align: left;
+margin-left: 32px;
+width: 180px;
+
 @media(max-width: 768px){
     width: 154px;
     height: 48px;
@@ -50,20 +41,19 @@ text-align: left;
     font-size: 14px;
     line-height: 24px;
     text-align: left;
+    margin-left: 0px;
 }`
 
 export const SetaStyle = styled.img`
-position: absolute;
-left: 755px;
-right: 14.58%;
-top: 777px;
-bottom: -25%;
+position: relative;
 padding: 9px;
 width: 6px;
 height: 12px;
+margin-left: clamp(25px, 50px, 70px);
 @media(max-width: 768px) {
     left: 349px;
     top: 901px;
+    margin-left: 0px;
 }
 `
 export const Close2 = styled.img`

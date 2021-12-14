@@ -5,12 +5,10 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 19px 32px;
-position: absolute;
+margin-right: 24px;
+position: relative;
 width: 216px;
 height: 56px;
-left: 111px;
-top: 561px;
 background: #FF8F01;
 font-family: 'DM Sans', sans-serif;
 font-weight: 500;
@@ -38,11 +36,9 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 19px 32px;
-position: absolute;
+position: relative;
 width: 256px;
 height: 56px;
-left: 340px;
-top: 561px;
 background: none;
 color: white;
 font-family: 'DM Sans', sans-serif;
@@ -77,6 +73,7 @@ line-height: 18px;
 border-radius: 4px;
 margin-top: 40px;
 margin-left: 115px;
+margin-bottom: 40px;
 cursor: pointer;
 border: black;
 
@@ -92,5 +89,10 @@ border: black;
     margin-left: 20px;
     font-size: 14px;
     line-height: 14px;
+    margin-bottom: 0px;
 }
+`
+
+export const ButtonsContainer = styled.div `
+display: flex;
 `

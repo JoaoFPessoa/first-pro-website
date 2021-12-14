@@ -20,15 +20,16 @@ export default function ModalButton5() {
     
     return (
         <>
-        <Button onClick={openModal}>
         <ModalStyle>
+        <Button onClick={openModal}>
+        <BalanceIcon />
         <Text>
         Acompanhamento jurídico
         </Text>
-        <BalanceIcon />
         <Seta5 />
-        </ModalStyle>
         </Button>
+        </ModalStyle>
+
         {showModal && (        <Modal5 showModal={showModal} setShowModal={openModal} 
         modal={{image: Balance2, 
             title: 'Acompanhamento jurídico', 

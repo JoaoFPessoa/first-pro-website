@@ -1,11 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-position: absolute;
-width: 1216px;
-height: 500px;
-left: 112px;
-top: 2300px;
+position: relative;
+margin-top: 200px;
 @media(max-width: 768px){
     position: absolute;
     left: 20px;
@@ -14,7 +11,7 @@ top: 2300px;
 `
 
 export const CarIcon = styled.img `
-position: absolute;
+position: relative;
 width: 40px;
 height: 40px;
 background: #242424;
@@ -22,16 +19,15 @@ border-radius: 4px;
 padding: 15px;
 
 @media(max-width: 768px){
+    position: absolute;
     top: 730px;
     padding: 8px;
 }
 `
 export const Subtitle = styled.div`
-position: absolute;
+position: relative;
 width: 200px;
 height: 26px;
-left: 130px;
-top: 1px;
 font-family: Inter;
 font-weight: normal;
 font-size: 16px;
@@ -39,6 +35,7 @@ line-height: 26px;
 color: #B8B8B8;
 
 @media(max-width: 768px){
+    position: absolute;
     top: 840px;
     left: 0px;
     font-size: 14px;
@@ -46,17 +43,16 @@ color: #B8B8B8;
 }
 `
 export const Title = styled.div`
-position: absolute;
+position: relative;
 width: 400px;
 height: 48px;
-left: 128px;
-top: 30px;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 40px;
 line-height: 48px;
 color: #EBEBEB;
 @media(max-width: 768px){
+    position: absolute;
     width: 375px;
     top: 805px;
     font-size: 30px;
@@ -67,9 +63,7 @@ color: #EBEBEB;
 
 export const LeftArrow = styled.img`
 cursor: pointer;
-left: 1030px;
-top: 32px;
-position: absolute;
+position: relative;
 width: 48px;
 height: 48px;
 background: #242424;
@@ -82,11 +76,10 @@ border-radius: 4px;
 
 export const RightArrow = styled.img`
 cursor: pointer;
-left: 1090px;
-top: 32px;
-position: absolute;
+position: relative;
 width: 48px;
 height: 48px;
+margin-left: 8px;
 background: #242424;
 border-radius: 4px;
 @media(max-width: 768px){
@@ -103,9 +96,8 @@ export const Overflow = styled.div`
 `
 
 export const CardContainer = styled.div`
-width: 1216px;
-height: 250px;
-margin-top: 154px;
+justify-content: space-between;
+margin-top: 64px;
 display: flex;
 @media(max-width: 768px){
 `
@@ -167,4 +159,18 @@ position: relative;
 margin-top: 0;
 width: 1800px;
 }
+`
+
+export const TitleContainer = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+`
+export const TextContainer = styled.div`
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+`
+export const Description = styled.div`
+display: none;
 `

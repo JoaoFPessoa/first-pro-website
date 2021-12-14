@@ -1,4 +1,4 @@
-import {HomeContainer, Title, Subtitle, Background} from './style'
+import {HomeContainer, Title, Subtitle, Background, GlobalContainer, MainModalContainer} from './style'
 import {TextOne, TextTwo} from '../../components/HomeComponents/texts'
 import {HireButton} from '../../components/Buttons/hire-button'
 import {ProviderButton} from '../../components/Buttons/provider-button'
@@ -17,6 +17,9 @@ import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
 import HomeShield from '../../components/HomeComponents'
 import Map from '../../img/default_map (Traced).svg'
+import { HeaderContent, TextsContainer } from '../../components/HomeComponents/style'
+import { ButtonsContainer } from '../../components/Buttons/styles'
+import { ModalsContainer, ModalsContainer2 } from '../../components/ModalButtons/style'
 
 
 
@@ -24,24 +27,37 @@ export default function Home() {
 
     return (
         <HomeContainer>
+            <GlobalContainer>
             <Background src={Map}/>
             <Header />
+            <HeaderContent>
+            <TextsContainer>
             <Title>
             <TextOne />
             </Title>
             <Subtitle>
             <TextTwo />
             </Subtitle>
+            <ButtonsContainer>
             <HireButton />
             <ProviderButton />
+            </ButtonsContainer>
+            </TextsContainer>
             <HomeShield />
+            </HeaderContent>
 
+            <MainModalContainer>
+            <ModalsContainer>
             <ModalButton1 />
             <ModalButton2 />
             <ModalButton3 />
+            </ModalsContainer>
+            <ModalsContainer2>
             <ModalButton4 />
             <ModalButton5 />
             <ModalButton6  />
+            </ModalsContainer2>
+            </MainModalContainer>
 
             <About/>
 
@@ -50,9 +66,8 @@ export default function Home() {
             <RecoveredCars />
 
             <Testimony />
-
             <Banner />
-
             <Footer />
+            </GlobalContainer>
         </HomeContainer>
     )}

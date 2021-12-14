@@ -16,15 +16,17 @@ export default function ModalButton6() {
     
     return (
         <>
-        <Button  onClick={openModal}>
+
         <ModalStyle>
+        <Button  onClick={openModal}>
+        <FileLogo />
         <Text >
         Sindicância
         </Text>
-        <FileLogo />
         <Seta6 />
-        </ModalStyle>
         </Button>
+        </ModalStyle>
+
         {showModal && (        <Modal6 showModal={showModal} setShowModal={openModal} 
         modal={{image: FileFocus, 
             title: 'Sindicância', 

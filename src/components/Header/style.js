@@ -1,24 +1,28 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-position: absolute;
-width: 100%;
-height: 80px;
-left: 0px;
-top: 0px;
+position: relative;
 background: #191919;
 opacity: 0.8;
+display: flex;
+justify-content: space-between;
+align-self: stretch;
+align-items: center;
+height: 100px;
 @media(max-width:768px){
   max-width: 375px;
 }
 `
+export const LogoContainer = styled.div`
+display: flex;
+align-items: center;
+`
 
 export const LogoCompany = styled.img`
-position: absolute;
+position: relative;
 width: 53.54px;
 height: 38px;
-left: 111px;
-top: 29px;
+margin-right: 17.5px;
 @media (max-width: 768px) {
   left: 20px;
   width: 39.23px;
@@ -28,16 +32,13 @@ top: 29px;
 `
 
 export const LogoCompanyPRMA = styled.img`
-position: absolute;
+position: relative;
 width: 160.62px;
 height: 15.65px;
-left: 182.38px;
-top: 40.18px;
 @media (max-width: 768px){
 width: 117.69px;
 height: 11.53px;
 left: 72.31px;
-top: 32.24px;
 
 
 }
@@ -45,9 +46,8 @@ top: 32.24px;
 `
 
 export const NavBar = styled.div`
-position: absolute;
-width: 99px;
-height: 26px;
+display: flex;
+position: relative;
 font-size: 16px;
 line-height: 26px;
 color: #B8B8B8;
@@ -56,11 +56,8 @@ color: #B8B8B8;
 }
 
 .inicio{
-  position: absolute;
+  position: relative;
   width: 40px;
-  height: 26px;
-  left: 860px;
-  top: 35px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -70,39 +67,34 @@ color: #B8B8B8;
 }
 
 .servicos{
-  position: absolute;
+  position: relative;
 width: 66px;
-height: 26px;
-left: 932px;
-top: 35px;
 font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 text-decoration: none;
-color: #B8B8B8;}
+color: #B8B8B8;
+margin-left: 32px;
+}
 
 .quem-somos{
-  position: absolute;
+  position: relative;
 width: 110px;
-height: 26px;
-left: 1030px;
-top: 35px;
 font-size: 16px;
 line-height: 26px;
 text-decoration: none;
 color: #B8B8B8;
+margin-left: 32px;
 }
 
 .contato{
-  position: absolute;
+  position: relative;
   width: 61px;
-  height: 26px;
-  left: 1160px;
-  top: 35px;
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
   color: #B8B8B8;
+  margin-left: 32px;
     font-family: 'Inter', sans-serif;
 }
 

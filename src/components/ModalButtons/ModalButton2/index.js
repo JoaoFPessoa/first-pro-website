@@ -20,16 +20,17 @@ export default function ModalButton2() {
     
     return (
         <>
-        <Button onClick={openModal}>
         <ModalStyle>
+        <Button onClick={openModal}>
+        <Car1 />
         <Text>
         Pronta resposta veicular
         </Text>
-        <Car1 />
         <Seta2 />
         <Line4 />
-        </ModalStyle>
         </Button>
+        </ModalStyle>
+
         {showModal && (        <Modal2 showModal={showModal} setShowModal={openModal} 
         modal={{image: Car, 
             title: 'Pronta resposta veicular', 

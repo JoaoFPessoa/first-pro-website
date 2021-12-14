@@ -19,15 +19,16 @@ export default function ModalButton3() {
     
     return (
         <>
-        <Button onClick={openModal}>
         <ModalStyle>
+        <Button onClick={openModal}>
+        <HomeLogo />
         <Text>
         Pronta resposta patrimonial
         </Text>
-        <HomeLogo />
         <Seta3 />
-        </ModalStyle>
         </Button>
+        </ModalStyle>
+
         {showModal && (        <Modal3 showModal={showModal} setShowModal={openModal} 
         modal={{image: Home, 
             title: 'Pronta resposta patrimonial', 

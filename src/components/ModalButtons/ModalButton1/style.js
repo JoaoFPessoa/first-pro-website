@@ -4,22 +4,27 @@ export const ModalStyle = styled.div`
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
+display: flex;
+align-items: center;
+height: 120px;
+flex: auto;
+width: 100%;
 
 /* white */
 color: #EBEBEB;
 }
 `
 export const Text = styled.div`
-position: absolute;
-width: 148px;
+position: relative;
 height: 60px;
-left: 205px;
-top: 753px;
 font-family: 'DM Sans', sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
 text-align: left;
+margin-left: 32px;
+width: 170px;
+
 @media(max-width: 768px){
     width: 104px;
     height: 48px;
@@ -28,32 +33,30 @@ text-align: left;
     font-size: 14px;
     line-height: 24px;
     text-align: left;
+    margin-left: 0px;
+
 }
 `
 
 export const SetaStyle = styled.img`
-position: absolute;
-left: 401.5px;
-right: 14.58%;
-top: 777px;
-bottom: -25%;
+position: relative;
 padding: 9px;
 width: 6px;
 height: 12px;
+margin-left: clamp(25px, 50px, 70px);
 @media(max-width: 768px) {
     left: 349px;
     top: 800px;
+    margin-left: 0px;
 }
 
 `
 
 export const EyeStyle = styled.img`
 
-position: absolute;
+position: relative;
 width: 48px;
 height: 48px;
-left: 112px;
-top: 749px;
 background: #242424;
 padding: 15px;
 border-radius: 4px;
@@ -64,13 +67,7 @@ border-radius: 4px;
 `
 
 export const Line3 = styled.div`
-position: absolute;
-width: 229px;
-height: 0px;
-left: 350px;
-top: 850px;
-border: 1px solid #303030;
-transform: rotate(90deg);
+
 
 @media(max-width: 768px){ 
     display: none;
@@ -79,6 +76,10 @@ transform: rotate(90deg);
 
 export const Button = styled.div`
 cursor: pointer;
+display: flex;
+align-items: center;
+flex: auto;
+width: 100%;
 `
 
 export const Close = styled.img`

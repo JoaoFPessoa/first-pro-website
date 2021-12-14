@@ -1,14 +1,14 @@
-import {AssistantImage, Button, CardIcon, Container, Info, Subtitle, Title} from './style'
+import {AssistantImage, Button, CardIcon, Container, ImgContainer, Info, Subtitle, Title} from './style'
 import Card from '../../img/card.png'
 import AssistantBackground from '../../img/assistantImg.svg'
 
 export default function Assistant() {
     return (
-    <div>
     <Container>
-    <CardIcon src={Card} />
+    <ImgContainer>
     <AssistantImage src={AssistantBackground} />
-    </Container>
+    <CardIcon src={Card} />
+    </ImgContainer>
     <Info>
     <Title>
         Seja um assistente
@@ -23,6 +23,6 @@ veicular 24 horas
         Quero ser um assistente
     </Button>
     </Info>
-    </div>
+    </Container>
     )
 }

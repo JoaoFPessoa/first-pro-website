@@ -9,9 +9,6 @@ export default createGlobalStyle`
     }
     
     html, body, #root{
-        max-height: 100vh;
-        max-width: 100vw;
-        height: 100%;
         font-family: 'Inter', 'DM Sans', sans-serif;
         background: #191919;
         @media(max-width:768px){

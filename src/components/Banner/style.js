@@ -2,23 +2,27 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 
-position: absolute;
-width: 1216px;
-height: 247px;
-left: 112px;
-top: 3250px;
+position: relative;
+width: 100%;
 background: #242424;
+display: flex;
+justify-content: space-between;
+margin-top: 200px;
+min-width: 1000px;
+
 @media(max-width: 768px){
+    min-width: 0px;
+    position: absolute;
     top: 4200px;
     left: 0px;
     max-width: 375px;
     height: 214px;
+    margin-top: 0px;
 }
 `
 
 export const Title = styled.div` 
 width: 350px;
-height: 80px;
 margin-left: 115px;
 margin-top: 40px;
 font-family: DM Sans;
@@ -40,41 +44,48 @@ color: #EBEBEB;
 export const ShieldStyle = styled.div`
 width: 100px;
 height: 100px;
-position: absolute;
+position: relative;
 bottom: 320px;
 left: 300px;
 `
 
 export const IconContainer = styled.div`
-position: absolute;
-width: 288px;
-height: 184px;
-left: 864px;
-top: 40px;
+position: relative;
 display: flex;
-flex-wrap: wrap;
+flex-direction: column;
+margin-top: 56px;
 @media(max-width: 768px){
     display: none;
 }
 `
+export const UpperContainer = styled.div`
+position: relative;
+display: flex;
+`
+export const DownerContainer = styled.div`
+position: relative;
+display: flex;
+`
+
+
 export const Icons = styled.img`
 width: 50px;
 height: 40px;
-margin-right: 15px;
+margin: 10px;
 padding: 10px;
 background: #191919;
 border-radius: 4px;
 
 `
 export const Line = styled.div`
-position: absolute;
-width: 1200px;
+position: relative;
 height: 2px;
 margin-top: 30px;
 background: radial-gradient(50% 4499999.95% at 50% 100.05%, #FF8F01 0%, rgba(255, 143, 1, 0) 100%);
 transform: matrix(1, 0, 0, -1, 0, 0);
 
 @media(max-width: 768px){
+position: absolute;
 width: 375px;
 height: 2px;
 left: 0px;
@@ -83,14 +94,21 @@ bottom: 0px;
 `
 
 export const Shield = styled.img`
-position: absolute;
-width: 230px;
+position: relative;
 height: 205px;
-margin-left: 500px;
-bottom: 30px;
+margin-top: 53px;
 @media(max-width: 768px){
     position: relative;
     bottom: 180px;
     right: 260px;
+    margin-left: 500px;
+    margin-top: 0px;
+    margin-rifht: 0px;
+
 }
+`
+
+export const LeftContainer = styled.div`
+display: flex;
+flex-direction: column;
 `
