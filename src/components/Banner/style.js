@@ -11,13 +11,8 @@ margin-top: 200px;
 min-width: 1000px;
 
 @media(max-width: 768px){
-    min-width: 0px;
-    position: absolute;
-    top: 4200px;
-    left: 0px;
-    max-width: 375px;
-    height: 214px;
-    margin-top: 0px;
+    position: relative;
+    margin-top: 100px;
 }
 `
 
@@ -34,7 +29,7 @@ color: #EBEBEB;
 @media(max-width: 768px){
     width: 275px;
     height: 70px;
-    margin-left: 20px;
+    margin-left: 23px;
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
@@ -86,7 +81,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 @media(max-width: 768px){
 position: absolute;
-width: 375px;
+width: 100%;
 height: 2px;
 left: 0px;
 bottom: 0px;
@@ -99,12 +94,8 @@ height: 205px;
 margin-top: 53px;
 @media(max-width: 768px){
     position: relative;
-    bottom: 180px;
-    right: 260px;
-    margin-left: 500px;
-    margin-top: 0px;
-    margin-rifht: 0px;
-
+    margin: auto;
+    right: 300px;
 }
 `
 

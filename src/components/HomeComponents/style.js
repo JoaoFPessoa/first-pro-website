@@ -38,12 +38,16 @@ position: relative;
 width: 650.92px;
 height: 600.96px;
 @media(max-width: 768px) {
-top: 470px;
-left: 0px;
-width: 375px;
-height: 350.96px;
-background-image: url(${Map});  
+display: none; 
 `
+export const MobileShieldStyle = styled.img`
+display: none;
+@media(max-width: 768px) {
+    display: flex;
+    width: 100%;
+    background-image: url(${Map});  
+`
+
 export const Background = styled.img`
 position: relative;
 width: 1680px;
@@ -57,10 +61,16 @@ display: flex;
 align-self: stretch;
 margin-top: 40px;
 justify-content: space-between;
+@media(max-width: 768px){
+    margin-top: 150px;
+}
 `
 
 export const TextsContainer = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
+@media(max-width: 768px) {
+    width: 100%;
+}
 `

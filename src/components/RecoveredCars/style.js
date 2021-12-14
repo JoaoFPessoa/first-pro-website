@@ -4,9 +4,9 @@ export const Container = styled.div`
 position: relative;
 margin-top: 200px;
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    width: 375px;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 `
 
@@ -19,8 +19,7 @@ border-radius: 4px;
 padding: 15px;
 
 @media(max-width: 768px){
-    position: absolute;
-    top: 730px;
+    position: relative;
     padding: 8px;
 }
 `
@@ -35,9 +34,7 @@ line-height: 26px;
 color: #B8B8B8;
 
 @media(max-width: 768px){
-    position: absolute;
-    top: 840px;
-    left: 0px;
+    position: relative;
     font-size: 14px;
     line-height: 24px;
 }
@@ -52,12 +49,9 @@ font-size: 40px;
 line-height: 48px;
 color: #EBEBEB;
 @media(max-width: 768px){
-    position: absolute;
-    width: 375px;
-    top: 805px;
+    position: relative;
     font-size: 30px;
     line-height: 35px;
-    left: 0px;
 }
 `
 
@@ -90,8 +84,8 @@ export const Overflow = styled.div`
 
 @media(max-width: 768px){
     overflow-x: auto;
-    margin-top: 720px;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 `
 
@@ -100,6 +94,7 @@ justify-content: space-between;
 margin-top: 64px;
 display: flex;
 @media(max-width: 768px){
+    margin-top: 32px;
 `
 export const Card = styled.img`
 width: 280px;
@@ -170,7 +165,22 @@ export const TextContainer = styled.div`
 display: flex;
 flex-direction: column;
 margin-left: 50px;
+@media(max-width: 768px){
+    margin-left: 0;
+    margin-top: 32px;
+}
 `
 export const Description = styled.div`
 display: none;
+@media(max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+}
+`
+
+export const UpperContainer = styled.div`
+display: flex;
+@media(max-width: 768px){
+    flex-direction:column;
+}
 `

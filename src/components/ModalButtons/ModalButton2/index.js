@@ -1,5 +1,5 @@
-import { ModalStyle, Button } from "../ModalButton1/style"
-import {Line4, Text,} from './style'
+import { ModalStyle, Button, Text } from "../ModalButton1/style"
+import {Line4} from './style'
 import Seta2 from './seta'
 
 import Balance from '../../Modals/Modal2/img/balance-two 1.svg'
@@ -10,6 +10,7 @@ import Refresh from '../../Modals/Modal2/img/refresh 1.svg'
 import { useState } from "react";
 import Modal2 from "../../Modals/Modal2"
 import Car1 from './car'
+import Seta1 from "../ModalButton1/seta"
 
 export default function ModalButton2() {
     const [showModal, setShowModal] = useState(false);
@@ -26,7 +27,7 @@ export default function ModalButton2() {
         <Text>
         Pronta resposta veicular
         </Text>
-        <Seta2 />
+        <Seta1 />
         <Line4 />
         </Button>
         </ModalStyle>

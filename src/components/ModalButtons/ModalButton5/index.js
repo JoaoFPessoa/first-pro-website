@@ -1,5 +1,4 @@
-import { Text } from "./style"
-import { ModalStyle, Button } from "../ModalButton1/style";
+import { ModalStyle, Button, Text } from "../ModalButton1/style";
 import { useState } from "react";
 import BalanceIcon from "./balanceIcon"
 import Seta5 from "./seta"
@@ -9,6 +8,7 @@ import GoodOne from '../../Modals/Modal5/img/good-one 1.svg'
 import Addition from '../../Modals/Modal5/img/file-addition 1.svg'
 import Eye from '../../Modals/Modal5/img/eyes 1.svg'
 import Modal5 from "../../Modals/Modal5"
+import Seta1 from "../ModalButton1/seta";
 
 
 export default function ModalButton5() {
@@ -26,7 +26,7 @@ export default function ModalButton5() {
         <Text>
         Acompanhamento jurídico
         </Text>
-        <Seta5 />
+        <Seta1 />
         </Button>
         </ModalStyle>
 

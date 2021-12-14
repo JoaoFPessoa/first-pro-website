@@ -1,4 +1,4 @@
-import {HamburgerContainer, HeaderContainer, LogoCompany, LogoCompanyPRMA, LogoContainer, MobileNavBar, NavBar} from './style'
+import {HamburgerContainer, HeaderContainer, LogoCompany, LogoCompanyPRMA, LogoContainer, MobileContainer, MobileNavBar, NavBar} from './style'
 import Logo1 from '../../img/Logo1.png'
 import LogoPRMA from '../../img/LogoPRMA.png'
 import React, { useState } from 'react';
@@ -20,6 +20,7 @@ export default function Header() {
             {/* <Link to='/aplicativo'>Aplicativo</Link> */}
             <a href="#contact" class="contato">Contato</a>
         </NavBar>
+        <MobileContainer>
         <HamburgerContainer>
         <Hamburger direction="right" size={30} toggled={open} toggle={setOpen} >
         </Hamburger>
@@ -33,6 +34,7 @@ export default function Header() {
         <a href="#contact"  class="mobile-navbar">Contato</a> 
         </MobileNavBar>
         )}
+        </MobileContainer>
         </ HeaderContainer>
     )
     }

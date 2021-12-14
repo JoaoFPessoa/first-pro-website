@@ -19,9 +19,6 @@ border: black;
 cursor: pointer;
 @media (max-width: 768px) {
     width: 123px;
-    height: 48px;
-    top: 450px;
-    left: 33px;
 }
 
 
@@ -50,9 +47,6 @@ border: solid 1px grey;
 cursor: pointer;
 @media (max-width: 768px) {
     width: 173px;
-    height: 48px;
-    top: 450px;
-    left: 170px;
 }
 `
 
@@ -86,7 +80,7 @@ border: black;
     width: 200px;
     height: 48px;
     margin-top: 32px;
-    margin-left: 20px;
+    margin-left: 23px;
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 0px;
@@ -95,4 +89,6 @@ border: black;
 
 export const ButtonsContainer = styled.div `
 display: flex;
+justify-content: center;
+margin-top: 32px;
 `

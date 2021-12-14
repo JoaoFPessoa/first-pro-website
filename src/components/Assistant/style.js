@@ -6,13 +6,10 @@ margin-top: 200px;
 display: flex;
 justify-content: space-between;
 @media(max-width: 768px){
-    position: absolute;
-    left: 0;
-    width: 375px;
-    height: 380px;
-    left: 112px;
-    top: 1806px;
-    justify-content: flex-start;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 48px;
 }
 `
 
@@ -25,15 +22,14 @@ top: 60px;
 z-index: 20;
 @media (min-width: 768px) and (max-width: 1280px){
     width: 60px;
-    
     }
 
 @media(max-width:768px){
     position: absolute;
     width: 64px;
     height: 64px;
-    left: 267px;
-    top: 670px;
+    top: -20px;
+    right: 120px;
 
 `
 export const AssistantImage = styled.img`
@@ -47,11 +43,10 @@ width: 450px;
 }
 
 @media(max-width:768px){
-    position: absolute;
+    position: relative;
     width: 335px;
     height: 210px;
-    top: 700px;
-    left: 20px;
+    margin-left: 20px;
 `
 
 export const Info = styled.div`
@@ -60,12 +55,12 @@ width: 520px;
 margin-left: 88px;
 margin-top: 50px;
 @media(max-width:768px){
-    position: absolute;
+    position: relative;
     left: 0;
-    max-width: 375px;    
-    height: 284px;
-    left: 808px;
-    top: 1850px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 48px;
+    max-width: 300px;
 }
 `
 
@@ -80,13 +75,9 @@ line-height: 48px;
 color: #EBEBEB;
 
 @media(max-width:768px){
-    position: absolute;
-    top: 900px;
-    left: 20px;
+    position: relative;
     font-size: 30px;
     line-height: 35px;
-    width: 300px;
-    height: 70px;
     `
 
 export const Subtitle = styled.div`
@@ -99,13 +90,11 @@ font-size: 16px;
 line-height: 26px;
 color: #B8B8B8;
 @media(max-width:768px){
-    position: absolute;
-    top: 960px;
-    left: 20px;
+    position: relative;
     font-size: 14px;
     line-height: 24px;
-    width: 350px;
-    height: 70px;
+    width: 335px;
+    margin-top: 0px;
 `
 
 export const Button = styled.button`
@@ -127,16 +116,17 @@ font-size: 16px;
 line-height: 18px;
 
 @media(max-width:768px){
-    position: absolute;
-    top: 1050px;
-    left: 20px;
+    position: relative;
     width: 230px;
     height: 48px;
     font-size: 14px;
     line-height: 14px;
+    margin-top: 32px;
 `
 
 export const ImgContainer = styled.div`
 position: relative;
-
+@media(max-width: 768px){
+width: 450px;
+}
 `

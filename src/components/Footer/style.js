@@ -7,14 +7,11 @@ display: flex;
 justify-content: space-between;
 margin-top: 120px;
 @media(max-width: 768px){
-    position: absolute;
-    margin-top: 0px;
-    top: 4500px;
-    left: 0;
-    width: 375px;
-    height: 250px;
-    display: block;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
     justify-content: normal;
+    flex-direction: column;
 }
 
 `
@@ -25,8 +22,7 @@ width: 232px;
 height: 38px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
+    position: relative;
     width: 170px;
     height: 28px;
 `
@@ -41,14 +37,11 @@ margin-top: 24px;
 margin-bottom: 125px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
+    position: relative;
     width: 232px;
     height: 48px;
     font-size: 14px;
     line-height: 24px;
-    top: 62px;
-    margin-top: 0px;
     margin-bottom: 0px;
 }
 `
@@ -59,18 +52,22 @@ font-size: 14px;
 line-height: 24px;
 color: #B8B8B8;
 width: 208px;
-
-
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 750px;
-    font-size: 12px;
-    line-height: 22px;   
-    width: 190px;
-    height: 48px;
-}
+display: none;
 `
+export const MobileTradeMark = styled.div`
+display:none;
+@media(max-width: 768px){
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #B8B8B8;
+    width: 208px;
+    margin-top: 80px;
+}
+` 
+
 export const Subtitle = styled.div`
 position: relative;
 width: 81px;
@@ -81,10 +78,8 @@ line-height: 30px;
 color: #EBEBEB;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 150px;
-    margin-bottom: 0px;
+    position: relative;
+    margin-top: 42px;
 }
 `
 export const ContainerServicos = styled.div`
@@ -95,9 +90,8 @@ width: 300px;
 height: 300px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 200px;
+    position: relative;
+    margin-top:
 }
 `
 
@@ -126,11 +120,10 @@ line-height: 30px;
 color: #EBEBEB;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 470px;
+    position: relative;
     width: 78px;
     height: 30px;
+
     
 }
 `
@@ -142,11 +135,10 @@ line-height: 24px;
 color: #FFFFFF;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 49px;
-    top: 530px;
+    position: relative;
     width: 200px;
     height: 24px;
+    margin-left: 8px;
     
 }
 `
@@ -156,9 +148,7 @@ width: 20px;
 height: 20px;
 margin-right: 8px;
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 530px;
+    position: relative;
 margin-right: 0px;
     
 }
@@ -172,12 +162,9 @@ color: #FFFFFF;
 margin-top: 10px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 560px;
     width: 254px;
     height: 24px;
-    margin-top: 0px;
+    margin-top: 14px;
 }
 `
 
@@ -187,13 +174,9 @@ display: flex;
 margin-top: 115px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
-    top: 630px;
     width: 193px;
     height: 52px;
-    display: block;
-    margin-top: 0px;
+    margin-top: 48px;
 }
 `
 
@@ -225,6 +208,9 @@ height: 52px;
 export const FooterContainer = styled.div`
 display: flex;
 flex-direction: column;
+@media(max-width: 768px){
+    margin-top: 48px;
+}
 `
 
 export const ContactContainer = styled.div`

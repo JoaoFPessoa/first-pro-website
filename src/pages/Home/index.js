@@ -15,9 +15,9 @@ import RecoveredCars from '../../components/RecoveredCars'
 import Testimony from '../../components/Testimony'
 import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
-import HomeShield from '../../components/HomeComponents'
+import HomeShield, { MobileHomeShield } from '../../components/HomeComponents'
 import Map from '../../img/default_map (Traced).svg'
-import { HeaderContent, TextsContainer } from '../../components/HomeComponents/style'
+import { HeaderContent, MobileShieldStyle, TextsContainer } from '../../components/HomeComponents/style'
 import { ButtonsContainer } from '../../components/Buttons/styles'
 import { ModalsContainer, ModalsContainer2 } from '../../components/ModalButtons/style'
 
@@ -42,9 +42,10 @@ export default function Home() {
             <HireButton />
             <ProviderButton />
             </ButtonsContainer>
+            <MobileHomeShield />
             </TextsContainer>
             <HomeShield />
-            </HeaderContent>
+            </HeaderContent>            
 
             <MainModalContainer>
             <ModalsContainer>
@@ -66,8 +67,11 @@ export default function Home() {
             <RecoveredCars />
 
             <Testimony />
+
             <Banner />
+
             <Footer />
+            
             </GlobalContainer>
         </HomeContainer>
     )}

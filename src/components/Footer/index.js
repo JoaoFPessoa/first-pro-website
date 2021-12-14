@@ -1,4 +1,4 @@
-import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, ContactTitle, Cellphone, Container, Title, Logotipo, ServicosFooter, LeftContainer, FooterContainer, ContactContainer} from './style.js'
+import {WhatsAppLogo, Email, Trademark, Subtitle, ContainerServicos, ContactTitle, Cellphone, Container, Title, Logotipo, ServicosFooter, LeftContainer, FooterContainer, ContactContainer, MobileTradeMark} from './style.js'
 import LogoImg from '../../img/logotipo.svg'
 import Whatsapp from '../../img/Whatsapp.svg'
 import { LocationContainer } from './style.js'
@@ -64,6 +64,10 @@ export default function Footer(){
 
                 </Location>
             </LocationContainer>
+            <MobileTradeMark>
+            PRMA Federal
+            © Todos os direitos reservados
+            </MobileTradeMark>
             </FooterContainer>
         </Container>
     )

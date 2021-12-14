@@ -9,9 +9,12 @@ align-items: center;
 height: 120px;
 flex: auto;
 width: 100%;
-
 /* white */
 color: #EBEBEB;
+@media(max-width: 768px) {
+    height: auto;
+    border-bottom: 1px solid #303030;
+    margin-bottom: 10px;
 }
 `
 export const Text = styled.div`
@@ -23,17 +26,13 @@ font-size: 20px;
 line-height: 30px;
 text-align: left;
 margin-left: 32px;
-width: 170px;
+width: 150px;
 
 @media(max-width: 768px){
-    width: 104px;
-    height: 48px;
-    left: 104px;
-    top: 790px;
     font-size: 14px;
     line-height: 24px;
     text-align: left;
-    margin-left: 0px;
+    margin-left: 10px;
 
 }
 `
@@ -43,11 +42,9 @@ position: relative;
 padding: 9px;
 width: 6px;
 height: 12px;
-margin-left: clamp(25px, 50px, 70px);
+margin-left: clamp(100px, 50px, 70px);
 @media(max-width: 768px) {
-    left: 349px;
-    top: 800px;
-    margin-left: 0px;
+    margin-left: auto;
 }
 
 `
@@ -61,9 +58,8 @@ background: #242424;
 padding: 15px;
 border-radius: 4px;
 @media(max-width: 768px){
-    left: 20px;
-    top: 790px;
     padding: 8px;
+    margin-bottom: 10px;
 `
 
 export const Line3 = styled.div`

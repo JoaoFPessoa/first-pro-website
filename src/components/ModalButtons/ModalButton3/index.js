@@ -1,5 +1,4 @@
-import { Text } from "./style"
-import { ModalStyle, Button } from "../ModalButton1/style";
+import { ModalStyle, Button, Text } from "../ModalButton1/style";
 import { useState } from "react";
 import HomeLogo from "./homeIcon"
 import Seta3 from "./seta"
@@ -8,6 +7,7 @@ import Home from '../../Modals/Modal3/img/home 1.svg'
 import Car from '../../Modals/Modal3/img/car 2.svg'
 import GoodOne from '../../Modals/Modal3/img/good-one 1.svg'
 import Modal3 from "../../Modals/Modal3"
+import Seta1 from "../ModalButton1/seta";
 
 
 export default function ModalButton3() {
@@ -25,7 +25,7 @@ export default function ModalButton3() {
         <Text>
         Pronta resposta patrimonial
         </Text>
-        <Seta3 />
+        <Seta1 />
         </Button>
         </ModalStyle>
 

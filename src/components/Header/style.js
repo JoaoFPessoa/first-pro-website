@@ -10,7 +10,7 @@ align-self: stretch;
 align-items: center;
 height: 100px;
 @media(max-width:768px){
-  max-width: 375px;
+  width: 100%;
 }
 `
 export const LogoContainer = styled.div`
@@ -24,9 +24,10 @@ width: 53.54px;
 height: 38px;
 margin-right: 17.5px;
 @media (max-width: 768px) {
-  left: 20px;
   width: 39.23px;
   height: 28px;
+  margin-right: 0;
+  margin-left: 20px;
 }
   }
 `
@@ -38,7 +39,7 @@ height: 15.65px;
 @media (max-width: 768px){
 width: 117.69px;
 height: 11.53px;
-left: 72.31px;
+margin-left: 13px;
 
 
 }
@@ -51,6 +52,7 @@ position: relative;
 font-size: 16px;
 line-height: 26px;
 color: #B8B8B8;
+margin-left: auto;
 @media(max-width: 768px){
   display: none;
 }
@@ -102,30 +104,33 @@ margin-left: 32px;
 export const HamburgerContainer = styled.div`
 display: none;
 @media(max-width: 768px){
-  display: inline;
-  position: absolute;
-  width: 26px;
-  height: 12px;
-  left: 310px;
-  top: 13px;
+  display: block;
   color: white;
 }
 `
 
 export const MobileNavBar = styled.div`
 position: absolute;
-left: 110px;
 top: 120px;
-height: 26px;
 display: flex;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 justify-content: space-around;
 flex-flow: column nowrap;
-width: 150px;
 
 .mobile-navbar {
   text-decoration: none;
   color: white;
   text-align: center;
   padding: 5px 0 5px 0;
+}
+`
+export const MobileContainer = styled.div`
+@media(max-width: 768px){
+display: flex;
+justify-content: space-between;
 }
 `

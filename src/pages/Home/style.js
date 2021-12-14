@@ -20,7 +20,6 @@ overflow-x: hidden;
 }
 
 @media(max-width: 768px){
-  max-width: 375px;
   margin-left: 0;
 }
 `
@@ -39,10 +38,11 @@ font-family: 'DM Sans', sans-serif;
     @media(max-width: 768px) {
     width: 309px;
     font-weight: 500;
-font-size: 30px;
-line-height: 35px;
-text-align: center;
-left: 33px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: auto;
+    height: auto;
 
   }
 `
@@ -57,12 +57,12 @@ color: #B8B8B8;
 padding-bottom: 42px;
 @media(max-width: 768px) {
     width: 295px;
-    height: 48px;
-    top: 350px;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-    left: 33px;
+    margin: auto;
+    height: auto;
+    padding-bottom: 0px;
 })
 `
 
@@ -90,4 +90,11 @@ width: 65vw;
 }
 `
 export const MainModalContainer = styled.div`
+@media(max-width: 768px){
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
 `

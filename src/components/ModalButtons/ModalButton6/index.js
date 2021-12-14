@@ -1,10 +1,10 @@
-import { Text } from "./style"
-import { ModalStyle, Button } from "../ModalButton1/style";
+import { ModalStyle, Button, Text } from "../ModalButton1/style";
 import { useState } from "react";
 import FileLogo from "./fileIcon"
 import Seta6 from "./seta"
 import FileFocus from '../../Modals/Modal6/img/file-focus 1.svg'
 import Modal6 from "../../Modals/Modal6"
+import Seta1 from "../ModalButton1/seta";
 
 
 export default function ModalButton6() {
@@ -23,7 +23,7 @@ export default function ModalButton6() {
         <Text >
         Sindicância
         </Text>
-        <Seta6 />
+        <Seta1 />
         </Button>
         </ModalStyle>
 

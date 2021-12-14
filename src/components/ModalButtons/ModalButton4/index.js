@@ -1,5 +1,4 @@
-import { Text } from "./style"
-import { ModalStyle, Button } from "../ModalButton1/style";
+import { ModalStyle, Button, Text } from "../ModalButton1/style";
 import { useState } from "react";
 import ProtectIcon from "./protectIcon"
 import Seta4 from "./seta"
@@ -12,6 +11,7 @@ import Tool from '../../Modals/Modal4/img/tool 1.svg'
 import Water from '../../Modals/Modal4/img/water-level 1.svg'
 import Modal4 from "../../Modals/Modal4"
 import { Line5, Line6, Line7, Line8, Line9 } from "../../Modals/Modal4/style";
+import Seta1 from "../ModalButton1/seta";
 
 
 export default function ModalButton4() {
@@ -29,7 +29,7 @@ export default function ModalButton4() {
         <Text>
         Assistência veicular 24 horas
         </Text>
-        <Seta4 />
+        <Seta1 />
         {/* <Line5 />
         <Line6 />
         <Line7 />

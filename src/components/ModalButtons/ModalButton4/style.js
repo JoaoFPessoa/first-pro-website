@@ -48,8 +48,7 @@ border-radius: 4px;
 padding: 15px;
 @media(max-width: 768px){;
     padding: 8px;
-    left: 20px;
-    top: 1048px;
+    margin-bottom: 10px;
 `
 export const Close4 = styled.img`
 width: 50px;

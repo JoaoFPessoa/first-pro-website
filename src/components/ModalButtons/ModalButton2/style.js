@@ -18,8 +18,7 @@ border-radius: 4px;
 padding: 15px;
 @media(max-width: 768px){
     padding: 8px;
-    left: 20px;
-    top: 871px;
+    margin-bottom: 10px;
 `
 export const Text = styled.div`
 position: relative;

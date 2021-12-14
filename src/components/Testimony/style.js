@@ -7,13 +7,10 @@ display: flex;
 justify-content: space-between;
 
 @media(max-width: 768px){
-    position: absolute;
-    display: block;
-    margin-top: 0px;
-    top: 3600px;
-    left: 0;
-    width: 375px;
-    height: 247px;
+    position: relative;
+    margin-top: 40px;
+    margin-left:20px;
+    flex-direction: column;
 }
 `
 
@@ -29,8 +26,7 @@ line-height: 26px;
 color: #B8B8B8;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 20px;
+    position: relative;
     font-size: 14px;
     line-height: 14px;
     width: 88px;
@@ -48,14 +44,10 @@ color: #EBEBEB;
 margin-top: 24px;
 
 @media(max-width: 768px){
-    position: absolute;
+    position: relative;
     font-size: 30px;
     line-height: 35px;
-    width: 343px;
-    height: 70px;
-    left: 20px;  
-    top: 50px;
-    margin-top: 0px;
+    width: 350px;
 }
 `
 export const Arrow = styled.img`
@@ -90,19 +82,13 @@ width: 488px;
 height: 234px;
 
 @media(max-width: 768px){
-    margin-top: 150px;
-    margin-left: 20px;
-    width: 375px;
-    top: 3186px;
+    margin-top: 40px;
 }
 `
 
 export const Aspas = styled.img`
 width: 40px;
 height: 36px;
-@media(max-width: 768px){
-    left: 0px;
-}
 `
 
 export const Text = styled.div`
@@ -142,13 +128,13 @@ color: #EBEBEB;
 margin-top: 15px;
 
 @media(max-width: 768px){
-    position: absolute;
-    left: 100px;
+    position: relative;
+    margin-left: 24px;
+    margin-top: 35px;
     width: 226px;
     height: 20px;
     font-size: 20px;
     line-height: 20px;
-    top: 340px;
 }
 `
 
