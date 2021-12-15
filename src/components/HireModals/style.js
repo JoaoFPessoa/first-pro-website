@@ -3,47 +3,42 @@ import styled from 'styled-components'
 export const Overlay = styled.div`
 background: rgba(0, 0, 0, 0.8);
 position: absolute;
+height: 100rem;
 width: 100%;
-height: 700px;
+left: 0;
+top: 0;
 display: flex;
 align-items: center;
 justify-content: center;
-bottom: 0px;
 z-index: 20;
-top: 10px;
 `
 
 export const Container = styled.div`
-position: absolute;
-width: 792px;
-height: 336px;
+position: relative;
 display: flex;
-left: 350px;
-bottom: 200px;
+margin-top: -500px;
 
 @media(max-width: 768px){
     display: block;
     left: 20px;
     width: 375px;
     bottom: 280px;
+    margin-top: 0;
 }
 
 `
 export const BoxOne = styled.div`
-width: 375px;
-height: 336px;
 background: #191919;
 border-radius: 4px;
 cursor: pointer;
 @media(max-width: 768px){
     width: 250px;
     height: 280px;
+    margin-bottom: 10px;
 }
 `
 
 export const BoxTwo = styled.div`
-width: 375px;
-height: 336px;
 background: #191919;
 border-radius: 4px;
 margin-left: 32px;
@@ -80,6 +75,7 @@ width: 250px;
 height: 68px;
 margin-left: 32px;
 margin-top: 20px;
+margin-bottom: 20px;
 @media(max-width: 768px){
     position: absolute;
     top: 150px;
@@ -138,10 +134,10 @@ width: 50px;
 height: 50px;
 cursor: pointer;
 @media(max-width:768px){
-    position: absolute;
+    position: relative;
     width: 35px;
     height: 35px;
-    left: 270px;
-    bottom: 300px;
+    bottom: 600px;
+    left: 250px;
 }
 `

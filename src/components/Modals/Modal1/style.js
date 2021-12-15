@@ -49,7 +49,7 @@ margin-left:10px;
 `
 
 export const Title = styled.div`
-width: 236px;
+width: 100%;
 height: 80px;
 margin-top: 40px;
 font-weight: 500;

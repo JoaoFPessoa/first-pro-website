@@ -81,15 +81,15 @@ width: 100%;
 export const Close = styled.img`
 width: 50px;
 height: 50px;
-position: absolute;
-top: 490px;
-right: 260px;
 cursor: pointer;
+margin-left: auto;
+margin-top: -20px;
+margin-right: 20px;
 
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 505px;
-    right: 75px;
+    margin-right: 10px;
+    margin-top: -10px;
 }
 `

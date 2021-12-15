@@ -58,14 +58,14 @@ margin-left: clamp(25px, 50px, 70px);
 export const Close2 = styled.img`
 width: 50px;
 height: 50px;
-position: absolute;
-top: 550px;
-right: 250px;
+margin-left: auto;
+margin-top: -20px;
+margin-right: 20px;
 cursor: pointer;
 
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 530px;
-    right: 75px;
+    margin-right: 10px;
+    margin-top: -10px;
 }`

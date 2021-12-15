@@ -41,12 +41,13 @@ border-radius: 4px;
 @media(max-width: 768px){
 width: 30px;
 height: 30px;
-margin-left:5px;
+margin-left:10px;
+padding: 15px;
 }
 `
 
 export const ModalTitle = styled.div`
-width: 500px;
+width: 100%;
 height: 80px;
 margin-top: 40px;
 font-weight: 500;
@@ -58,7 +59,7 @@ display:flex;
     font-size: 14px;
     line-height: 15px;
     margin-top: 20px;
-    width: 190px;
+    width: 100%;
     }
 `
 

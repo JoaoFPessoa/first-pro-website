@@ -53,14 +53,14 @@ padding: 15px;
 export const Close4 = styled.img`
 width: 50px;
 height: 50px;
-position: absolute;
-top: 490px;
-right: 260px;
+margin-left: auto;
+margin-top: -20px;
+margin-right: 20px;
 cursor: pointer;
 
 @media(max-width: 768px){
     width: 30px;
     height: 30px;
-    top: 505px;
-    right: 80px;
+    margin-right: 10px;
+    margin-top: -10px;
 }`

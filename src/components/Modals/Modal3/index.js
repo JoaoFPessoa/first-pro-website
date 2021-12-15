@@ -12,6 +12,7 @@ export default function Modal2 (props) {
                 <Title> 
                 <Icon image={props.modal.image} />
                 {props.modal.title}
+                <Close3 onClick = {props.setShowModal} src={CloseSmall} />   
                 </Title>
 
                 <SubtitleContainer>
@@ -27,7 +28,6 @@ export default function Modal2 (props) {
 
 ))}
             </Teste>   
-            <Close3 onClick = {props.setShowModal} src={CloseSmall} />   
             </Container>
         </Overlay>
 

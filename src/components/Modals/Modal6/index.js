@@ -11,13 +11,14 @@ export default function Modal6 (props) {
                 <Title> 
                 <Icon image={props.modal.image} />
                 {props.modal.title}
+                <Close6 onClick = {props.setShowModal} src={CloseSmall} />   
                 </Title>
 
                 <SubtitleContainer>
                 {props.modal.subtitle}
                 </SubtitleContainer>
   
-            <Close6 onClick = {props.setShowModal} src={CloseSmall} />   
+
             </Container>
         </Overlay>
 

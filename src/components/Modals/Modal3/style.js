@@ -38,7 +38,7 @@ padding-right: 32px;
 `
 
 export const Title = styled.div`
-width: 500px;
+width: 100%;
 height: 80px;
 margin-top: 40px;
 font-weight: 500;
@@ -50,7 +50,7 @@ display:flex;
     font-size: 14px;
     line-height: 15px;
     margin-top: 20px;
-    width: 210px;
+    width: 100%;
     }
 `
 

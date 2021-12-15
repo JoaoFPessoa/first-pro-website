@@ -12,6 +12,7 @@ export default function Modal5 (props) {
                 <Title> 
                 <Icon image={props.modal.image} />
                 {props.modal.title}
+                <Close5 onClick = {props.setShowModal} src={CloseSmall} /> 
                 </Title>
 
                 <SubtitleContainer>
@@ -26,8 +27,7 @@ export default function Modal5 (props) {
                 </IconsContainer>
 
 ))}
-            </Teste>   
-            <Close5 onClick = {props.setShowModal} src={CloseSmall} />   
+            </Teste>     
             </Container>
         </Overlay>
 
