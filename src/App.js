@@ -1,5 +1,5 @@
-import GlobalStyles from './site-insitucional/src/styles/GlobalStyles'
-import Routes from './site-insitucional/src/pages/Routes';
+import GlobalStyles from './styles/GlobalStyles'
+import Routes from './pages/Routes';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
